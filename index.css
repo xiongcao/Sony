@@ -720,6 +720,15 @@ main {
   color: #f03e1a;
   line-height: calc(var(--width)*24);
   white-space: nowrap;
+  width: calc(var(--width)*94);
+}
+
+.fixedPart .front{
+  width: calc(var(--width) * 108);
+}
+
+.fixedPart .front .fixedLabel1 {
+  width: calc(var(--width) * 108);
 }
 
 .redTelLabel2,
@@ -739,6 +748,7 @@ main {
 .front {
   display: flex;
   align-items: center;
+  width: calc(var(--width) * 94);
 }
 
 .serviceStation {
@@ -768,10 +778,11 @@ main {
 
 .bg1-arrow {
   position: absolute;
-  bottom: -110px;
-  left: 48%;
-  width: 105px;
-  height: 110px;
+  bottom: calc(var(--width) * -68);
+  left: 50%;
+  width: calc(var(--width) * 64);
+  height: calc(var(--width) * 68);
+  transform: translateX(-50%);
 }
 
 .title4 {
@@ -1040,6 +1051,11 @@ main {
   margin-top: calc(var(--width)*17);
   padding-left: calc(var(--width)*40);
   padding-right: calc(var(--width)*83);
+}
+
+.part-3 a {
+  text-decoration: underline;
+  color: #0479FF;
 }
 
 .webAppointmentLabel1 {
