@@ -2428,16 +2428,16 @@ main {
     display: flex;
     flex-direction: column;
     background: #f9f9f9;
-    border-radius: 20px;
-    padding: 20px 30px 22px 30px;
+    border-radius: calc(var(--width)*13);
+    padding: calc(var(--width)*40);
     display: flex;
     justify-content: space-between;
-    flex-wrap: warp;
-    margin-top: 30px;
+    /* flex-wrap: warp; */
+    margin-top: calc(var(--width)*80);
   }
 
   .beizhu {
-    font-size: 15px;
+    font-size: calc(var(--width)*40);
     line-height: 17px;
   }
 
@@ -2461,26 +2461,38 @@ main {
   }
 
   .end {
-    font-size: 15px;
+    font-size: calc(var(--width)*40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333;
-    line-height: 20px;
+    line-height: calc(var(--width)*53);
     text-align: center;
     padding: 0;
-    margin-top: 20px;
+    margin-top: calc(var(--width)*53);
+  }
+
+  .title5 {
+    margin-bottom: calc(var(--width)*39);
+    margin-top: calc(var(--width)*107);
+  }
+
+  .title5 .arrowLeft, .title5 .arrowRight {
+    width: calc(var(--width)*149);
+    height: calc(var(--width)*29);
+  
+  }
+  .title5 .title3Label {
+    padding: 0 calc(var(--width)*13);
+    font-size: calc(var(--width)*45);
   }
 
   .part-4 {
-    margin: 0px 15px;
+    margin: 0px calc(var(--width)*40);
+    padding: calc(var(--width)*40);
     background-color: #fff;
     height: auto;
-    border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-right: 20px;
-    /* margin-bottom: 50px; */
+    border-radius: calc(var(--width)*27);
+   
   }
 
   .shoufei {
@@ -2495,119 +2507,93 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
   }
 
   .mfee1,
   .mfee2,
   .mfee3 {
     background: #f9f9f9;
-    border-radius: 10px;
+    border-radius: calc(var(--width)*27);
+    width: calc(var(--width)*373);
+    height: calc(var(--width)*368);
+    padding: calc(var(--width)*40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .mpic15 {
-    margin-top: 15px;
-    margin-left: 37px;
-    margin-right: 37px;
-    margin-bottom: 10px;
-    width: 67px;
-    height: 43px;
+    width: calc(var(--width)*177);
+    height: calc(var(--width)*115);
   }
 
   .mfeeName1,
-  .mfeeName2 {
-    font-size: 15px;
+  .mfeeName2,
+  .mfeeName3 {
+    margin: calc(var(--width)*27) 0 calc(var(--width)*8);
+    font-size: calc(var(--width)*40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333;
-    line-height: 20px;
     text-align: center;
     word-wrap: nowrap;
   }
 
-  .mfeeDetail1 {
-    font-size: 12px;
+  .mfeeDetail1, .mfeeDetail2, .mfeeDetail3 {
+    font-size: calc(var(--width)*32);
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: 16px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 6px;
-    margin-bottom: 15px;
+    line-height: calc(var(--width)*43);
     text-align: center;
   }
 
-  .mfeeDetail2 {
-    font-size: 12px;
-    font-family: MicrosoftYaHei;
-    color: #333333;
-    line-height: 16px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 6px;
-    margin-bottom: 31px;
-    text-align: center;
+  .mfeeDetail1 {
+    width: calc(var(--width)*260);
   }
 
   .line {
     width: 35px;
     height: 1px;
-    border: 1px dashed #cacaca;
+    border: calc(var(--width)*1) dashed #cacaca;
+  }
+
+  .middlePart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .mredPlus {
-    width: 17px;
-    height: 17px;
-    margin-top: 63px;
-    margin-left: 9px;
-    margin-right: 9px;
-  }
-
-  .mfeeName3 {
-    font-size: 15px;
-    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
-    font-weight: bold;
-    color: #333333;
-    line-height: 20px;
-    text-align: center;
-    word-wrap: nowrap;
+    width: calc(var(--width)*45);
+    height: calc(var(--width)*45);
+    margin-top: calc(var(--width)*167);
   }
 
   .mfee3 {
-    margin-top: 20px;
-    margin-right: 83px;
-    margin-left: 83px;
-    margin-bottom: 20px;
-  }
-
-  .mfeeDetail3 {
-    font-size: 12px;
-    font-family: MicrosoftYaHei;
-    color: #333333;
-    line-height: 16px;
-    text-align: center;
-    margin-bottom: 32px;
+    margin: calc(var(--width)*40) auto 0;
   }
 
   .lineGroup {
     padding-left: 73px;
     padding-right: 73px;
-    margin-top: 23px;
+    margin-top: calc(var(--width)*50);
     display: flex;
     justify-content: space-between;
   }
 
   .leftLine {
-    width: 91px;
-    height: 1px;
-    border: 2px dashed #cacaca;
-    transform: rotate(30deg); /* 旋转45度，形成对角线 */
+    width: calc(var(--width)*233);
+    height: calc(var(--width)*1);
+    border: calc(var(--width)*1) dashed #cacaca;
+    transform: rotate(25deg) translateX(13px); /* 旋转45度，形成对角线 */
   }
 
   .rightLine {
-    width: 91px;
-    height: 1px;
-    border: 2px dashed #cacaca;
-    transform: rotate(-30deg); /* 旋转45度，形成对角线 */
+    width: calc(var(--width)*233);
+    height: calc(var(--width)*1);
+    border: calc(var(--width)*1) dashed #cacaca;
+    transform: rotate(-25deg) translateX(13px); /* 旋转45度，形成对角线 */
   }
 }
