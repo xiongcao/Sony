@@ -10,7 +10,7 @@
 
 main {
   margin: 0;
-  padding: 0 0 calc(var(--width)*63);
+  padding: 0 0 calc(var(--width) * 63);
   border: 0;
   background: #f4f6fa;
 }
@@ -21,12 +21,12 @@ main {
 }
 
 .part-1 {
-  margin: calc(var(--width)*42) auto calc(var(--width)*56);
-  width: calc(var(--width)*833);
+  margin: calc(var(--width) * 42) auto calc(var(--width) * 56);
+  width: calc(var(--width) * 833);
   background-color: #fff;
   height: auto;
-  border-radius: calc(var(--width)*20);
-  padding-bottom: calc(var(--width)*28);
+  border-radius: calc(var(--width) * 20);
+  padding-bottom: calc(var(--width) * 28);
 }
 
 .redPocket {
@@ -41,50 +41,51 @@ main {
 }
 
 .leftPart {
-  padding: calc(var(--width)*21);
-  width: calc(var(--width)*386);
+  padding: calc(var(--width) * 21);
+  width: calc(var(--width) * 386);
 }
 
 .rightPart {
-  width: calc(var(--width)*447);
-  padding: calc(var(--width)*28) calc(var(--width)*18) calc(var(--width)*18) calc(var(--width)*54);
+  width: calc(var(--width) * 447);
+  padding: calc(var(--width) * 28) calc(var(--width) * 18)
+    calc(var(--width) * 18) calc(var(--width) * 54);
 }
 
 .title1 {
   text-align: center;
-  font-size: calc(var(--width)*21);
+  font-size: calc(var(--width) * 21);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #f03e1a;
-  line-height: calc(var(--width)*30);
-  padding-top: calc(var(--width)*21);
+  line-height: calc(var(--width) * 30);
+  padding-top: calc(var(--width) * 21);
   text-align: center;
 }
 
 .labelGroup1 {
   text-align: center;
-  padding-bottom: calc(var(--width)*7);
+  padding-bottom: calc(var(--width) * 7);
 }
 
 .label1-1 {
-  font-size: calc(var(--width)*17);
+  font-size: calc(var(--width) * 17);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #914e03;
-  line-height: calc(var(--width)*22);
+  line-height: calc(var(--width) * 22);
 }
 
 .label1-2 {
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   color: #914e03;
-  line-height: calc(var(--width)*22);
+  line-height: calc(var(--width) * 22);
 }
 
 .pic1 {
-  width: calc(var(--width)*324);
-  height: calc(var(--width)*125);
-  border-radius: calc(var(--width)*6);
+  width: calc(var(--width) * 324);
+  height: calc(var(--width) * 125);
+  border-radius: calc(var(--width) * 6);
   border: 1px solid #914e03;
   display: block;
   margin: 0 auto;
@@ -93,9 +94,9 @@ main {
 .labelGroup2 {
   display: flex;
   justify-content: space-between;
-  margin-top: calc(var(--width)*14);
+  margin-top: calc(var(--width) * 14);
   flex-wrap: wrap;
-  padding: 0 calc(var(--width)*21);
+  padding: 0 calc(var(--width) * 21);
 }
 
 .labelGroup3 {
@@ -105,9 +106,9 @@ main {
 
 .pic2,
 .pic3 {
-  width: calc(var(--width)*144);
-  height: calc(var(--width)*125);
-  margin-top: calc(var(--width)*7);
+  width: calc(var(--width) * 144);
+  height: calc(var(--width) * 125);
+  margin-top: calc(var(--width) * 7);
 }
 
 .labelGroup4 {
@@ -116,58 +117,59 @@ main {
 }
 
 .label3-1 {
-  font-size: calc(var(--width)*17);
+  font-size: calc(var(--width) * 17);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   text-align: center;
   color: #914e03;
-  line-height: calc(var(--width)*22);
+  line-height: calc(var(--width) * 22);
 }
 
 .label3-2 {
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   color: #914e03;
   text-align: center;
-  line-height: calc(var(--width)*22);
+  line-height: calc(var(--width) * 22);
 }
 
 .labelGroup5 {
-  font-size: calc(var(--width)*10);
+  font-size: calc(var(--width) * 10);
   font-family: MicrosoftYaHeiSemibold;
   color: #333333;
-  line-height: calc(var(--width)*13);
+  line-height: calc(var(--width) * 13);
   font-weight: bold;
-  padding: calc(var(--width)*14) calc(var(--width)*14) calc(var(--width)*6);
+  padding: calc(var(--width) * 14) calc(var(--width) * 14)
+    calc(var(--width) * 6);
 }
 
 .title2 {
-  font-size: calc(var(--width)*21);
+  font-size: calc(var(--width) * 21);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #ffffff;
-  line-height: calc(var(--width)*30);
+  line-height: calc(var(--width) * 30);
   text-align: center;
-  margin-bottom: calc(var(--width)*28);
+  margin-bottom: calc(var(--width) * 28);
 }
 
 .bold1 {
-  font-size: calc(var(--width)*28);
+  font-size: calc(var(--width) * 28);
 }
 
 .table {
-  width: calc(var(--width)*375);
+  width: calc(var(--width) * 375);
 }
 
 .tableTitle {
-  font-size: calc(var(--width)*17);
+  font-size: calc(var(--width) * 17);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333;
-  line-height: calc(var(--width)*22);
-  padding: calc(var(--width)*10) 0;
+  line-height: calc(var(--width) * 22);
+  padding: calc(var(--width) * 10) 0;
   background: linear-gradient(90deg, #ffe6c8 0%, #fcc08e 100%);
-  border-radius: calc(var(--width)*7) calc(var(--width)*7) 0px 0px;
+  border-radius: calc(var(--width) * 7) calc(var(--width) * 7) 0px 0px;
   border-right: none;
   text-align: center;
 }
@@ -181,10 +183,10 @@ main {
   display: flex;
   background-color: rgba(255, 227, 195, 0.2);
   border: 1px solid #dddddd;
-  font-size: calc(var(--width)*10);
+  font-size: calc(var(--width) * 10);
   font-family: MicrosoftYaHeiSemibold;
   color: #333333;
-  line-height: calc(var(--width)*13);
+  line-height: calc(var(--width) * 13);
   border-left: none;
   border-right: none;
 }
@@ -198,23 +200,23 @@ main {
 }
 
 .tableLabel2 {
-  font-size: calc(var(--width)*10);
+  font-size: calc(var(--width) * 10);
   font-family: MicrosoftYaHeiSemibold;
   color: #333333;
-  line-height: calc(var(--width)*13);
+  line-height: calc(var(--width) * 13);
 }
 
 .tableLabel4 {
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333;
-  line-height: calc(var(--width)*17);
+  line-height: calc(var(--width) * 17);
 }
 
 .label-1 {
   width: 33.33%;
-  padding: calc(var(--width)*15) 0 calc(var(--width)*14);
+  padding: calc(var(--width) * 15) 0 calc(var(--width) * 14);
   border-right: 1px solid #dddddd;
   text-align: center;
   font-weight: bold;
@@ -222,7 +224,7 @@ main {
 
 .label-2 {
   width: 33.33%;
-  padding: calc(var(--width)*15) 0 calc(var(--width)*14);
+  padding: calc(var(--width) * 15) 0 calc(var(--width) * 14);
   border-right: 1px solid #dddddd;
   text-align: center;
   font-weight: bold;
@@ -230,7 +232,7 @@ main {
 
 .label-3 {
   width: 33.33%;
-  padding: calc(var(--width)*15) 0 calc(var(--width)*14);
+  padding: calc(var(--width) * 15) 0 calc(var(--width) * 14);
   border-right: 1px solid #dddddd;
   text-align: center;
   font-weight: bold;
@@ -238,7 +240,7 @@ main {
 
 .label-4 {
   width: 33.33%;
-  padding: calc(var(--width)*15) 0 calc(var(--width)*14);
+  padding: calc(var(--width) * 15) 0 calc(var(--width) * 14);
   border-right: 1px solid #dddddd;
   align-items: center;
   justify-content: center;
@@ -247,91 +249,93 @@ main {
 
 .label-5 {
   width: 33.33%;
-  padding: calc(var(--width)*15) 0 calc(var(--width)*14);
+  padding: calc(var(--width) * 15) 0 calc(var(--width) * 14);
   border-right: 1px solid #dddddd;
   text-align: center;
 }
 
 .label-6 {
   width: 33.33%;
-  padding: calc(var(--width)*6) 0 calc(var(--width)*3);
+  padding: calc(var(--width) * 6) 0 calc(var(--width) * 3);
   border-right: 1px solid #dddddd;
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #f03e1a;
-  line-height: calc(var(--width)*17);
+  line-height: calc(var(--width) * 17);
   text-align: center;
   border-right: none;
 }
 
 .subTitle,
 .subTitle2 {
-  font-size: calc(var(--width)*10);
+  font-size: calc(var(--width) * 10);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #914e03;
-  line-height: calc(var(--width)*13);
+  line-height: calc(var(--width) * 13);
 }
 
 .subLabel,
 .subLabel2 {
-  font-size: calc(var(--width)*10);
+  font-size: calc(var(--width) * 10);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333;
-  line-height: calc(var(--width)*13);
+  line-height: calc(var(--width) * 13);
 }
 
 .subLabel {
-  margin-bottom: calc(var(--width)*7);
+  margin-bottom: calc(var(--width) * 7);
 }
 
 .tableContent {
-  padding: calc(var(--width)*11) calc(var(--width)*7) calc(var(--width)*10) calc(var(--width)*14);
+  padding: calc(var(--width) * 11) calc(var(--width) * 7)
+    calc(var(--width) * 10) calc(var(--width) * 14);
   background-color: rgba(255 227 195/20%);
   /* opacity: 0.2; */
 }
 
 .bgBox {
   background-color: #ffffff;
-  border-radius: 0px 0px calc(var(--width)*7) calc(var(--width)*7);
+  border-radius: 0px 0px calc(var(--width) * 7) calc(var(--width) * 7);
 }
 
 .lingquan {
   display: flex;
   align-items: center;
-  margin-top: calc(var(--width)*31);
-  margin-left: calc(var(--width)*28);
+  margin-top: calc(var(--width) * 31);
+  margin-left: calc(var(--width) * 28);
 }
 
 .arrow1 {
-  width: calc(var(--width)*33);
-  height: calc(var(--width)*17);
-  margin-right: calc(var(--width)*10);
+  width: calc(var(--width) * 33);
+  height: calc(var(--width) * 17);
+  margin-right: calc(var(--width) * 10);
 }
 
 .arrowLabel {
-  font-size: calc(var(--width)*17);
+  font-size: calc(var(--width) * 17);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #f03e1a;
-  line-height: calc(var(--width)*22);
+  line-height: calc(var(--width) * 22);
 }
 
 .introduce {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: calc(var(--width)*14) calc(var(--width)*124) calc(var(--width)*21) calc(var(--width)*117);
+  padding: calc(var(--width) * 14) calc(var(--width) * 124)
+    calc(var(--width) * 21) calc(var(--width) * 117);
 }
 
 .introduce1 {
-  font-size: calc(var(--width)*35);
+  font-size: calc(var(--width) * 35);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #f03e1a;
-  line-height: calc(var(--width)*47);
+  line-height: calc(var(--width) * 47);
   background: linear-gradient(180deg, #ff6648 0%, #d90000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -340,73 +344,73 @@ main {
 
 .boxGroup1 {
   position: relative;
-  margin-top: calc(var(--width)*17);
+  margin-top: calc(var(--width) * 17);
 }
 
 .box1 {
-  width: calc(var(--width)*164);
-  height: calc(var(--width)*16);
+  width: calc(var(--width) * 164);
+  height: calc(var(--width) * 16);
   background: #f03e1a;
   opacity: 0.14;
 }
 
 .box2 {
-  width: calc(var(--width)*181);
-  height: calc(var(--width)*16);
+  width: calc(var(--width) * 181);
+  height: calc(var(--width) * 16);
   background: #f03e1a;
   opacity: 0.14;
 }
 
 .introlabel1 {
-  font-size: calc(var(--width)*17);
+  font-size: calc(var(--width) * 17);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333 !important;
-  line-height: calc(var(--width)*22);
+  line-height: calc(var(--width) * 22);
   position: absolute;
-  left: calc(var(--width)*7);
-  bottom: calc(var(--width)*3);
+  left: calc(var(--width) * 7);
+  bottom: calc(var(--width) * 3);
 }
 
 .picGroup1 {
   display: flex;
   align-items: center;
-  width: calc(var(--width)*765);
+  width: calc(var(--width) * 765);
   margin: 0 auto;
-  padding: 0 calc(var(--width)*33);
+  padding: 0 calc(var(--width) * 33);
 }
 
 .pic4 {
-  width: calc(var(--width)*119);
-  height: calc(var(--width)*119);
+  width: calc(var(--width) * 119);
+  height: calc(var(--width) * 119);
 }
 
-.pic5, .pic6 {
-  width: calc(var(--width)*154);
-  height: calc(var(--width)*122);
+.pic5,
+.pic6 {
+  width: calc(var(--width) * 154);
+  height: calc(var(--width) * 122);
 }
 
 .pic7 {
-  width: calc(var(--width)*132);
-  height: calc(var(--width)*122);
+  width: calc(var(--width) * 132);
+  height: calc(var(--width) * 122);
 }
 
 .arrow2,
 .arrow3 {
-  width: calc(var(--width)*20);
-  height: calc(var(--width)*19);
+  width: calc(var(--width) * 20);
+  height: calc(var(--width) * 19);
 }
 
-
 .picGroup1 img {
-  margin-right: calc(var(--width)*20);
+  margin-right: calc(var(--width) * 20);
 }
 
 .picContent1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: calc(var(--width)*12) calc(var(--width)*35) 0;
+  padding: calc(var(--width) * 12) calc(var(--width) * 35) 0;
 }
 
 .content1,
@@ -418,50 +422,50 @@ main {
 }
 
 .content1 {
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*17);
+  line-height: calc(var(--width) * 17);
   text-align: center;
   word-wrap: break-word;
 }
 
 .content2 {
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*17);
+  line-height: calc(var(--width) * 17);
   text-align: center;
-  padding-left: calc(var(--width)*5);
+  padding-left: calc(var(--width) * 5);
 }
 
 .hintGroup1 {
   display: flex;
-  padding-left: calc(var(--width)*35);
-  padding-right: calc(var(--width)*51);
+  padding-left: calc(var(--width) * 35);
+  padding-right: calc(var(--width) * 51);
   justify-content: space-between;
-  margin-top: calc(var(--width)*7);
+  margin-top: calc(var(--width) * 7);
 }
 
 .hintContent1,
 .hintContent2 {
-  font-size: calc(var(--width)*10);
+  font-size: calc(var(--width) * 10);
   font-family: MicrosoftYaHei;
   color: #666666;
-  line-height: calc(var(--width)*13);
+  line-height: calc(var(--width) * 13);
   text-align: center;
 }
 
-.hintContent2{
-  padding-left: calc(var(--width)*11);
-  transform: translateX(calc(var(--width)*11));
+.hintContent2 {
+  padding-left: calc(var(--width) * 11);
+  transform: translateX(calc(var(--width) * 11));
 }
 
 .coupon {
   background: #f9f9f9;
-  border-radius: calc(var(--width)*14);
-  margin: calc(var(--width)*24) calc(var(--width)*24) 0;
-  padding: calc(var(--width)*14);
+  border-radius: calc(var(--width) * 14);
+  margin: calc(var(--width) * 24) calc(var(--width) * 24) 0;
+  padding: calc(var(--width) * 14);
 }
 
 .rules,
@@ -471,26 +475,26 @@ main {
 }
 
 .rules .former1 {
-  width: calc(var(--width)*74);
+  width: calc(var(--width) * 74);
 }
 
 .number {
-  margin: calc(var(--width)*14) 0;
+  margin: calc(var(--width) * 14) 0;
 }
 
 .rules,
 .number {
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*17);
+  line-height: calc(var(--width) * 17);
 }
 
 .time {
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei;
   color: #f03e1a;
-  line-height: calc(var(--width)*17);
+  line-height: calc(var(--width) * 17);
 }
 
 .title3 {
@@ -498,38 +502,39 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: calc(var(--width)*28);
+  margin-bottom: calc(var(--width) * 28);
 }
 
 .arrowLeft,
 .arrowRight {
-  width: calc(var(--width)*78);
-  height: calc(var(--width)*15);
+  width: calc(var(--width) * 78);
+  height: calc(var(--width) * 15);
 }
 
 .title3Label {
-  font-size: calc(var(--width)*21);
+  font-size: calc(var(--width) * 21);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333;
-  line-height: calc(var(--width)*28);
-  margin:0 calc(var(--width)*7);
+  line-height: calc(var(--width) * 28);
+  margin: 0 calc(var(--width) * 7);
 }
 
 .part-2 {
-  width: calc(var(--width)*834);
-  margin: calc(var(--width)*28) auto 0;
+  width: calc(var(--width) * 834);
+  margin: calc(var(--width) * 28) auto 0;
   background-color: #fff;
   height: auto;
-  border-radius: calc(var(--width)*14);
-  padding: calc(var(--width)*42) calc(var(--width)*24) calc(var(--width)*28);
+  border-radius: calc(var(--width) * 14);
+  padding: calc(var(--width) * 42) calc(var(--width) * 24)
+    calc(var(--width) * 28);
 }
 
 .couponIntro2 {
   display: flex;
   align-items: center;
-  margin-bottom: calc(var(--width)*11);
-  margin-top: calc(var(--width)*42);
+  margin-bottom: calc(var(--width) * 11);
+  margin-top: calc(var(--width) * 42);
 }
 
 .couponIntro1 {
@@ -551,10 +556,11 @@ main {
 }
 
 .rulesIntro {
-  padding: calc(var(--width)*34) calc(var(--width)*28) calc(var(--width)*28);
-  margin-top: calc(var(--width)*12);
+  padding: calc(var(--width) * 34) calc(var(--width) * 28)
+    calc(var(--width) * 28);
+  margin-top: calc(var(--width) * 12);
   background: #f9f9f9;
-  border-radius: calc(var(--width)*14);
+  border-radius: calc(var(--width) * 14);
 }
 
 .rulesPart1,
@@ -569,46 +575,47 @@ main {
 }
 
 .rulesNumber {
-  font-size: calc(var(--width)*21);
+  font-size: calc(var(--width) * 21);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #f03e1a;
-  line-height: calc(var(--width)*28);
+  line-height: calc(var(--width) * 28);
   background: linear-gradient(180deg, #ff6648 0%, #d90000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-right: calc(var(--width)*6);
+  margin-right: calc(var(--width) * 6);
 }
 
 .box3 {
-  width: calc(var(--width)*1);
-  height: calc(var(--width)*8);
+  width: calc(var(--width) * 1);
+  height: calc(var(--width) * 8);
   border: 1px dashed #f03e1a;
-  margin-top: calc(var(--width)*4);
-  margin-bottom: calc(var(--width)*8);
-  margin-left: calc(var(--width)*10);
+  margin-top: calc(var(--width) * 4);
+  margin-bottom: calc(var(--width) * 8);
+  margin-left: calc(var(--width) * 10);
 }
 
 .rulesLabel1 {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*19);
+  line-height: calc(var(--width) * 19);
 }
 
 .rulesLabel {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*19);
-  padding-top: calc(var(--width)*5);
+  line-height: calc(var(--width) * 19);
+  padding-top: calc(var(--width) * 5);
 }
 
 .bg-1 {
   background-image: url("images/bg-1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: calc(var(--width)*39) calc(var(--width)*24) calc(var(--width)*28) calc(var(--width)*28);
+  padding: calc(var(--width) * 39) calc(var(--width) * 24)
+    calc(var(--width) * 28) calc(var(--width) * 28);
   position: relative;
 }
 
@@ -628,38 +635,37 @@ main {
 .membershipLabel,
 .globalLabel,
 .addition {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*24);
+  line-height: calc(var(--width) * 24);
   display: flex;
   align-items: flex-start;
 }
 
 .blackIconGroup > div:nth-child(1) {
-  width: calc(var(--width)*94);
+  width: calc(var(--width) * 94);
   display: flex;
 }
 
 .blackIconGroup > div:nth-child(1) .bold2 {
-  width: calc(var(--width)*94);
-
+  width: calc(var(--width) * 94);
 }
 
 .blackIconGroup .blackIcon {
-  margin-top: calc(var(--width)*4);
+  margin-top: calc(var(--width) * 4);
 }
 
 .appointmentLabel {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #f03e1a;
-  line-height: calc(var(--width)*24);
+  line-height: calc(var(--width) * 24);
   font-weight: bold;
 }
 
 .blackIcon {
-  margin-right: calc(var(--width)*6);
+  margin-right: calc(var(--width) * 6);
 }
 
 .appointment,
@@ -668,7 +674,7 @@ main {
 .global,
 .redTel,
 .fixed {
-  margin-right: calc(var(--width)*6);
+  margin-right: calc(var(--width) * 6);
 }
 
 .blackIcon,
@@ -678,24 +684,24 @@ main {
 .global,
 .redTel,
 .fixed {
-  width: calc(var(--width)*14);
-  height: calc(var(--width)*14);
+  width: calc(var(--width) * 14);
+  height: calc(var(--width) * 14);
 }
 
 .usePart {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*24);
-  margin-top: calc(var(--width)*14);
-  margin-bottom: calc(var(--width)*24);
+  line-height: calc(var(--width) * 24);
+  margin-top: calc(var(--width) * 14);
+  margin-bottom: calc(var(--width) * 24);
 }
 
 .weixinPart,
 .membershipPart,
 .globalPart,
 .addition {
-  padding-left: calc(var(--width)*19);
+  padding-left: calc(var(--width) * 19);
 }
 
 .redTelPart,
@@ -707,23 +713,23 @@ main {
 
 .clarifyPart {
   display: flex;
-  margin-top: calc(var(--width)*14);
+  margin-top: calc(var(--width) * 14);
   align-items: flex-start;
 }
 
 .redTelLabel1,
 .fixedLabel1,
 .clarifyLabel1 {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   font-weight: bold;
   color: #f03e1a;
-  line-height: calc(var(--width)*24);
+  line-height: calc(var(--width) * 24);
   white-space: nowrap;
-  width: calc(var(--width)*94);
+  width: calc(var(--width) * 94);
 }
 
-.fixedPart .front{
+.fixedPart .front {
   width: calc(var(--width) * 108);
 }
 
@@ -734,10 +740,10 @@ main {
 .redTelLabel2,
 .fixedLabel2,
 .clarifyLabel2 {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*24);
+  line-height: calc(var(--width) * 24);
 }
 
 .clarifyLabel1,
@@ -757,12 +763,12 @@ main {
 }
 
 .getCoupon {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*24);
-  margin-top: calc(var(--width)*14);
-  margin-bottom: calc(var(--width)*24);
+  line-height: calc(var(--width) * 24);
+  margin-top: calc(var(--width) * 14);
+  margin-bottom: calc(var(--width) * 24);
 }
 
 .miniProgram {
@@ -770,10 +776,10 @@ main {
 }
 
 .convinent {
-  font-size: 20px;
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*24);
+  line-height: calc(var(--width) * 24);
 }
 
 .bg1-arrow {
@@ -790,17 +796,21 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
-  margin-top: 80px;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: calc(var(--width) * 28);
+  margin-top: calc(var(--width) * 56);
 }
 
 .part-3 {
-  width: calc(var(--width)*834);
-  margin: calc(var(--width)*28) auto 0;
+  width: calc(var(--width) * 834);
+  margin: calc(var(--width) * 28) auto 0;
   background-color: #fff;
   height: auto;
-  border-radius: calc(var(--width)*14);
-  padding: calc(var(--width)*42) calc(var(--width)*24) calc(var(--width)*24);
+  border-radius: calc(var(--width) * 14);
+  padding: calc(var(--width) * 42) calc(var(--width) * 24)
+    calc(var(--width) * 24);
 }
 
 .processPart1,
@@ -816,57 +826,58 @@ main {
 
 .processPart1 {
   justify-content: space-between;
-  width: calc(var(--width)*787);
+  width: calc(var(--width) * 787);
 }
 
 .processPart1 {
-  margin-bottom: calc(var(--width)*18);
+  margin-bottom: calc(var(--width) * 18);
 }
 
 .whiteTel {
-  width: calc(var(--width)*11);
-  height: calc(var(--width)*12);
-  margin-right: calc(var(--width)*7);
+  width: calc(var(--width) * 11);
+  height: calc(var(--width) * 12);
+  margin-right: calc(var(--width) * 7);
 }
 
 .processNumber {
-  font-size: calc(var(--width)*28);
+  font-size: calc(var(--width) * 28);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #f03e1a;
-  line-height:calc(var(--width)*37);
+  line-height: calc(var(--width) * 37);
   background: linear-gradient(180deg, #ff6648 0%, #d90000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-right: calc(var(--width)*7);
+  margin-right: calc(var(--width) * 7);
 }
 
 .processLabel1 {
-  font-size: calc(var(--width)*21);
+  font-size: calc(var(--width) * 21);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333;
-  line-height: calc(var(--width)*28);
+  line-height: calc(var(--width) * 28);
   white-space: nowrap;
 }
 
 .whiteTelPart {
-  margin-left: calc(var(--width)*14);
+  margin-left: calc(var(--width) * 14);
 }
 
 .whiteTelNumber {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #999999;
-  line-height: calc(var(--width)*31);
+  line-height: calc(var(--width) * 31);
   white-space: nowrap;
 }
 
 .processHint {
-  font-size: calc(var(--width)*17);
+  font-size: calc(var(--width) * 17);
   font-family: MicrosoftYaHeiSemibold;
   color: #333333;
-  line-height: calc(var(--width)*22);
+  font-weight: bold;
+  line-height: calc(var(--width) * 22);
   white-space: nowrap;
 }
 
@@ -875,9 +886,10 @@ main {
 }
 
 .box4 {
-  border-radius: calc(var(--width)*14);
+  border-radius: calc(var(--width) * 14);
   border: 2px dashed #cacaca;
-  padding: calc(var(--width)*28) calc(var(--width)*41) calc(var(--width)*28) calc(var(--width)*24);
+  padding: calc(var(--width) * 28) calc(var(--width) * 41)
+    calc(var(--width) * 28) calc(var(--width) * 24);
 }
 
 .scanPart,
@@ -887,35 +899,35 @@ main {
 }
 
 .pic13 {
-  width: calc(var(--width)*269);
-  height: calc(var(--width)*131);
+  width: calc(var(--width) * 269);
+  height: calc(var(--width) * 131);
   max-width: none;
 }
 
 .pic14 {
-  width: calc(var(--width)*238);
-  height: calc(var(--width)*122);
+  width: calc(var(--width) * 238);
+  height: calc(var(--width) * 122);
   max-width: none;
 }
 
 .scanPart {
-  margin-bottom: calc(var(--width)*20);
+  margin-bottom: calc(var(--width) * 20);
 }
 
 .webPart {
-  margin-top: calc(var(--width)*28);
+  margin-top: calc(var(--width) * 28);
 }
 
 .box5 {
   background: #f03e1a;
   opacity: 0.14;
-  width: calc(var(--width)*114);
-  height: calc(var(--width)*16);
+  width: calc(var(--width) * 114);
+  height: calc(var(--width) * 16);
 }
 
 .box6 {
-  width: calc(var(--width)*81);
-  height: calc(var(--width)*16);
+  width: calc(var(--width) * 81);
+  height: calc(var(--width) * 16);
   background: #f03e1a;
   opacity: 0.14;
 }
@@ -923,26 +935,26 @@ main {
 .scanGroup,
 .webGroup {
   position: relative;
-  margin-top: calc(var(--width)*6);
+  margin-top: calc(var(--width) * 6);
 }
 
 .scanLabel,
 .webLabel {
-  font-size: calc(var(--width)*17);
+  font-size: calc(var(--width) * 17);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333;
-  line-height: calc(var(--width)*22);
+  line-height: calc(var(--width) * 22);
   position: absolute;
-  left: calc(var(--width)*7);
-  bottom: calc(var(--width)*3);
+  left: calc(var(--width) * 7);
+  bottom: calc(var(--width) * 3);
 }
 
 .scan,
 .web {
-  width: calc(var(--width)*35);
-  height: calc(var(--width)*35);
-  margin-right: calc(var(--width)*7);
+  width: calc(var(--width) * 35);
+  height: calc(var(--width) * 35);
+  margin-right: calc(var(--width) * 7);
 }
 
 .weixinStep {
@@ -952,32 +964,32 @@ main {
 }
 
 .arrow-1 {
-  width: calc(var(--width)*20);
-  height: calc(var(--width)*19);
+  width: calc(var(--width) * 20);
+  height: calc(var(--width) * 19);
 }
 
 .weixinStep img {
-  margin-right: calc(var(--width)*14);
+  margin-right: calc(var(--width) * 14);
   max-width: none;
   height: auto;
 }
 
 .pic8,
 .pic9 {
-  width: calc(var(--width)*100);
-  height: calc(var(--width)*100);
+  width: calc(var(--width) * 100);
+  height: calc(var(--width) * 100);
 }
 
 .pic10,
 .pic11,
 .pic12 {
-  width: calc(var(--width)*120);
-  height: calc(var(--width)*110);
+  width: calc(var(--width) * 120);
+  height: calc(var(--width) * 110);
 }
 
 .miniWrapper {
   display: flex;
-  margin-top: calc(var(--width)*3);
+  margin-top: calc(var(--width) * 3);
 }
 
 .stepPart1 {
@@ -985,15 +997,15 @@ main {
 }
 
 .picHint1 {
-  font-size: calc(var(--width)*8);
+  font-size: calc(var(--width) * 8);
   font-family: MicrosoftYaHei;
   color: #666666;
-  line-height: calc(var(--width)*11);
+  line-height: calc(var(--width) * 11);
   text-align: center;
 }
 
 .pic8Wrapper {
-  margin-right: calc(var(--width)*22);
+  margin-right: calc(var(--width) * 22);
 }
 
 .stepIntroduce {
@@ -1002,44 +1014,43 @@ main {
 }
 
 .step-1 {
-  margin-left: calc(var(--width)*52);
-  margin-right: calc(var(--width)*112);
+  margin-left: calc(var(--width) * 52);
+  margin-right: calc(var(--width) * 112);
 }
 
 .step-2 {
-  margin-right: calc(var(--width)*56);
+  margin-right: calc(var(--width) * 56);
 }
 
 .step-3 {
-  margin-right: calc(var(--width)*50);
-  transform: translateX(calc(var(--width)*16));
+  margin-right: calc(var(--width) * 50);
+  transform: translateX(calc(var(--width) * 16));
 }
 
-
 .step-4 {
-  transform: translateX(calc(var(--width)*15));
-  width: calc(var(--width)*129);
+  transform: translateX(calc(var(--width) * 15));
+  width: calc(var(--width) * 129);
 }
 
 .step-1,
 .step-2,
 .step-3,
 .step-4 {
-  font-size: calc(var(--width)*10);
+  font-size: calc(var(--width) * 10);
   font-family: MicrosoftYaHeiSemibold;
   color: #111111;
-  line-height: calc(var(--width)*13);
+  line-height: calc(var(--width) * 13);
   text-align: center;
-  margin-top: calc(var(--width)*14);
+  margin-top: calc(var(--width) * 14);
   font-weight: bold;
 }
 
 .addition-1 {
-  font-size: calc(var(--width)*10);
+  font-size: calc(var(--width) * 10);
   font-family: MicrosoftYaHei;
   color: #999999;
-  line-height: calc(var(--width)*13);
-  margin-top: calc(var(--width)*14);
+  line-height: calc(var(--width) * 13);
+  margin-top: calc(var(--width) * 14);
 }
 
 .additionLabel1 {
@@ -1048,14 +1059,14 @@ main {
 
 .webStep {
   display: flex;
-  margin-top: calc(var(--width)*17);
-  padding-left: calc(var(--width)*40);
-  padding-right: calc(var(--width)*83);
+  margin-top: calc(var(--width) * 17);
+  padding-left: calc(var(--width) * 40);
+  padding-right: calc(var(--width) * 83);
 }
 
 .part-3 a {
   text-decoration: underline;
-  color: #0479FF;
+  color: #0479ff;
 }
 
 .webAppointmentLabel1 {
@@ -1063,31 +1074,31 @@ main {
 }
 
 .webAppointmentLabel2 {
-  width: calc(var(--width)*308);
-  transform: translateX(calc(var(--width)*-10));
+  width: calc(var(--width) * 308);
+  transform: translateX(calc(var(--width) * -10));
 }
 
 .webAppointmentLabel1,
 .webAppointmentLabel2 {
-  font-size: calc(var(--width)*10);
+  font-size: calc(var(--width) * 10);
   font-family: MicrosoftYaHeiSemibold;
-  color: #333333;
-  line-height: calc(var(--width)*13);
+  color: #111111;
+  line-height: calc(var(--width) * 13);
   text-align: center;
-  margin-top: calc(var(--width)*11);
+  margin-top: calc(var(--width) * 11);
   font-weight: bold;
 }
 
 .pic14Group {
-  margin-top: calc(var(--width)*9);
-  margin-left: calc(var(--width)*94);
+  margin-top: calc(var(--width) * 9);
+  margin-left: calc(var(--width) * 94);
 }
 
 .dashed {
   position: relative;
   width: calc(50% - 225px);
-  height: calc(var(--width)*15);
-  margin-left: calc(var(--width)*133);
+  height: calc(var(--width) * 15);
+  margin-left: calc(var(--width) * 133);
   border-right: 2px dashed rgb(1 50 135 / 20%);
   border-bottom: 2px dashed rgb(1 50 135 / 20%);
 }
@@ -1097,7 +1108,7 @@ main {
   position: absolute;
   top: 18px;
   width: 0;
-  height: calc(var(--width)*24);
+  height: calc(var(--width) * 24);
   border-left: 2px dashed rgb(1 50 135 / 20%);
 }
 
@@ -1106,7 +1117,7 @@ main {
   position: absolute;
   height: 0;
   width: 0;
-  bottom: calc(var(--width)*-36);
+  bottom: calc(var(--width) * -45);
   left: -5px;
   border-top: 10px dashed rgb(1 50 135 / 20%);
   border-bottom: 10px dashed transparent;
@@ -1130,15 +1141,15 @@ main {
 
 .dashedArrow {
   position: relative;
-  width: calc(var(--width)*53);
+  width: calc(var(--width) * 53);
   border: 2px dashed #000000;
   opacity: 0.21;
-  margin-right: calc(var(--width)*40);
-  margin-left: calc(var(--width)*44);
+  margin-right: calc(var(--width) * 40);
+  margin-left: calc(var(--width) * 44);
 }
 .dashedArrow2 {
-  margin-right: calc(var(--width)*19);
-  margin-left: calc(var(--width)*40);
+  margin-right: calc(var(--width) * 19);
+  margin-left: calc(var(--width) * 40);
 }
 
 .dashedArrow:after {
@@ -1153,12 +1164,12 @@ main {
 }
 
 .processStep {
-  margin-top: calc(var(--width)*31);
-  padding: 0 calc(var(--width)*41);
+  margin-top: calc(var(--width) * 31);
+  padding: 0 calc(var(--width) * 41);
 }
 
 .processPart2 {
-  padding-left: calc(var(--width)*30);
+  padding-left: calc(var(--width) * 30);
 }
 
 .processGroup3,
@@ -1172,34 +1183,34 @@ main {
 
 .labelGroup {
   display: flex;
-  padding: 0 calc(var(--width)*41);
-  font-size: calc(var(--width)*14);
+  padding: 0 calc(var(--width) * 41);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*19);
-  margin-top: calc(var(--width)*8);
+  line-height: calc(var(--width) * 19);
+  margin-top: calc(var(--width) * 8);
 }
 
 .processIntro1,
 .processIntro2 {
-  margin-right: calc(var(--width)*77);
+  margin-right: calc(var(--width) * 77);
 }
 
 .processIntro1,
 .processIntro2,
 .processIntro3 {
-  width: calc(var(--width)*183);
+  width: calc(var(--width) * 183);
   text-align: center;
 }
 
 .otherGroup {
-  width: calc(var(--width)*787);
+  width: calc(var(--width) * 787);
   background: #f9f9f9;
-  border-radius: calc(var(--width)*14);
-  padding: calc(var(--width)*15) calc(var(--width)*21);
+  border-radius: calc(var(--width) * 14);
+  padding: calc(var(--width) * 15) calc(var(--width) * 21);
   display: flex;
   justify-content: space-between;
-  margin-top: calc(var(--width)*42);
+  margin-top: calc(var(--width) * 42);
 }
 /* 
 .dot {
@@ -1218,20 +1229,20 @@ main {
 } */
 
 .beizhu {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #f03e1a;
-  line-height: calc(var(--width)*24);
+  line-height: calc(var(--width) * 24);
   align-self: flex-start;
 }
 
 .otherLabel {
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei;
   /* font-weight: bold; */
   color: #333333;
-  line-height: calc(var(--width)*24);
+  line-height: calc(var(--width) * 24);
 }
 
 .otherLabel {
@@ -1253,10 +1264,10 @@ main {
 
 .otherRight,
 .otherLeft ul {
-  font-size: calc(var(--width)*13);
+  font-size: calc(var(--width) * 13);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*24);;
+  line-height: calc(var(--width) * 24);
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -1286,13 +1297,13 @@ main {
 }
 
 .end {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333;
-  line-height: calc(var(--width)*19);
+  line-height: calc(var(--width) * 19);
   text-align: center;
-  padding-top: calc(var(--width)*21);;
+  padding-top: calc(var(--width) * 21);
 }
 
 .title5 {
@@ -1300,17 +1311,18 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: calc(var(--width)*28);
-  margin-top: calc(var(--width)*65);
+  margin-bottom: calc(var(--width) * 28);
+  margin-top: calc(var(--width) * 65);
 }
 
 .part-4 {
-  width: calc(var(--width)*834);
-  margin: calc(var(--width)*28) auto 0;
+  width: calc(var(--width) * 834);
+  margin: calc(var(--width) * 28) auto 0;
   background-color: #fff;
   height: auto;
-  border-radius: calc(var(--width)*14);
-  padding: calc(var(--width)*42) calc(var(--width)*28) calc(var(--width)*28);
+  border-radius: calc(var(--width) * 14);
+  padding: calc(var(--width) * 42) calc(var(--width) * 28)
+    calc(var(--width) * 28);
 }
 
 .shoufei {
@@ -1323,29 +1335,29 @@ main {
 .fee2,
 .fee3 {
   background: #f9f9f9;
-  border-radius: calc(var(--width)*14);
-  width: calc(var(--width)*229);
-  height: calc(var(--width)*176);
-  padding: calc(var(--width)*21) 0;
+  border-radius: calc(var(--width) * 14);
+  width: calc(var(--width) * 229);
+  height: calc(var(--width) * 176);
+  padding: calc(var(--width) * 21) 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .pic15 {
-  width: calc(var(--width)*92);
-  height: calc(var(--width)*60);
-  margin-bottom: calc(var(--width)*14);
+  width: calc(var(--width) * 92);
+  height: calc(var(--width) * 60);
+  margin-bottom: calc(var(--width) * 14);
 }
 
 .feeName1,
 .feeName2,
 .feeName3 {
-  font-size: calc(var(--width)*21);
+  font-size: calc(var(--width) * 21);
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333;
-  line-height: calc(var(--width)*28);
+  line-height: calc(var(--width) * 28);
   text-align: center;
   word-wrap: nowrap;
 }
@@ -1353,17 +1365,17 @@ main {
 .feeDetail1,
 .feeDetail2,
 .feeDetail3 {
-  font-size: calc(var(--width)*14);
+  font-size: calc(var(--width) * 14);
   font-family: MicrosoftYaHei;
   color: #333333;
-  line-height: calc(var(--width)*19);
-  margin-top: calc(var(--width)*14);
+  line-height: calc(var(--width) * 19);
+  margin-top: calc(var(--width) * 14);
   text-align: center;
 }
 
 .redPlus {
-  width: calc(var(--width)*17);
-  height: calc(var(--width)*17);
+  width: calc(var(--width) * 17);
+  height: calc(var(--width) * 17);
 }
 
 /* 不展示区域 */
@@ -1383,77 +1395,86 @@ main {
 
 @media (max-width: 1023px) {
   .part-1 {
-    margin: calc(var(--width)*80) auto calc(var(--width)*56);
-    width: calc(var(--width)*920);
+    margin: calc(var(--width) * 80) auto calc(var(--width) * 107);
+    width: calc(var(--width) * 920);
     background-color: #fff;
     height: auto;
-    border-radius: calc(var(--width)*20);
-    padding-bottom: calc(var(--width)*28);
+    border-radius: calc(var(--width) * 20);
+    padding-bottom: calc(var(--width) * 28);
   }
 
   .redPocket {
     width: 100%;
-    height: 1000px;
-    /* background-image: url(images/mobileRedPocket.png);
+    height: auto; /* background-image: url(images/mobileRedPocket.png);
     background-size: 100% 100%;
     background-repeat: no-repeat; */
     background-image: none;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   .leftPart {
-      padding: calc(var(--width)*80);
-      width: 100%;
-      height: 500px;
-      background-image: url(images/mobileRedPocketLeft.png);
-      background-size: 100% 100%;
+    padding: calc(var(--width) * 40);
+    width: 100%;
+    height: auto;
+    background-image: url(images/mobileRedPocketLeft.png);
+    background-size: 100% 100%;
   }
 
   .title1 {
-    font-size: calc(var(--width)*53);
+    font-size: calc(var(--width) * 53);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #f03e1a;
-    line-height: calc(var(--width)*84);
-    padding-bottom: calc(var(--width)*27);
+    line-height: calc(var(--width) * 84);
+    padding-bottom: calc(var(--width) * 27);
     text-align: center;
   }
 
   .labelGroup1 {
     text-align: center;
-    
-    padding-bottom: calc(var(--width)*13);
+
+    padding-bottom: calc(var(--width) * 13);
+  }
+
+  .labelGroup2 {
+    margin-top: calc(var(--width) * 27);
+    padding: 0 calc(var(--width) * 40);
   }
 
   .label1-1 {
-    font-size: calc(var(--width)*40);
+    font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #914e03;
-    line-height: calc(var(--width)*53);
+    line-height: calc(var(--width) * 53);
   }
 
   .label1-2 {
-    font-size: calc(var(--width)*84);
+    font-size: calc(var(--width) * 35);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     color: #914e03;
-    line-height: 20px;
+    line-height: calc(var(--width) * 53);
+  }
+
+  .pic1 {
+    width: calc(var(--width) * 760);
+    height: calc(var(--width) * 293);
   }
 
   .label3-1 {
-    font-size: 15px;
+    font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #914e03;
-    line-height: 20px;
+    line-height: calc(var(--width) * 53);
   }
 
   .label3-2 {
-    font-size: 13px;
+    font-size: calc(var(--width) * 35);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     color: #914e03;
-    line-height: 20px;
+    line-height: calc(var(--width) * 53);
   }
 
   .pic2,
@@ -1463,48 +1484,53 @@ main {
   }
 
   .labelGroup5 {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHeiSemibold;
     color: #333333;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
+    font-weight: bold;
+    padding: calc(var(--width) * 27) calc(var(--width) * 40)
+      calc(var(--width) * 10);
   }
 
   .rightPart {
-    background-image: url(images/mobileRedPocketRight.png);;
-    padding-top: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: calc(var(--width) * 135) calc(var(--width) * 40)
+      calc(var(--width) * 40) calc(var(--width) * 40);
     width: 100%;
+    height: auto;
+    background-image: url(images/mobileRedPocketRight.png);
+    background-size: 100% 100%;
+    margin-bottom: calc(var(--width) * 53);
   }
 
   .title2 {
-    font-size: 20px;
+    font-size: calc(var(--width) * 53);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #ffffff;
-    line-height: 32px;
+    line-height: calc(var(--width) * 84);
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: calc(var(--width) * 28);
   }
 
   .bold1 {
-    font-size: 30px;
+    font-size: calc(var(--width) * 80);
   }
 
   .btn {
     display: block;
-    width: 117px;
-    height: 35px;
+    width: calc(var(--width) * 312);
+    height: calc(var(--width) * 93);
     background: linear-gradient(180deg, #ffe6c8 0%, #fcc08e 100%);
     box-shadow: 0px 7px 10px 0px rgba(142, 0, 0, 0.5);
-    border-radius: 18px;
-    font-size: 15px;
+    border-radius: calc(var(--width) * 47);
+    font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #f03e1a !important;
-    line-height: 20px;
-    letter-spacing: 5px;
-    margin: 8px auto;
+    line-height: calc(var(--width) * 53);
+    letter-spacing: calc(var(--width) * 13);
+    margin: 0 auto;
     text-align: center;
     vertical-align: middle;
   }
@@ -1516,135 +1542,101 @@ main {
 
   .btnHint {
     display: block;
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHeiSemibold;
     color: #ffbdbd;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
     text-align: center;
-    margin-bottom: 15px;
+    margin: calc(var(--width) * 40) auto;
+  }
+
+  .table {
+    width: calc(var(--width) * 840);
   }
 
   .tableTitle {
-    font-size: 12px;
+    font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333;
-    line-height: 16px;
-    padding-top: 8px;
-    padding-left: 63px;
-    padding-right: 63px;
-    padding-bottom: 8px;
+    line-height: calc(var(--width) * 53);
+    padding: calc(var(--width) * 27) 0;
     background: linear-gradient(90deg, #ffe6c8 0%, #fcc08e 100%);
-    border-radius: 10px 10px 0px 0px;
+    border-radius: calc(var(--width) * 13) calc(var(--width) * 7) 0px 0px;
     border-right: none;
     text-align: center;
   }
 
-  .tabelLabel1,
-  .tabelLabel2,
-  .tabelLabel3 {
-    font-size: 12px;
+  .tableLabel1,
+  .tableLabel2,
+  .tableLabel3 {
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHeiSemibold;
     color: #333333;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
   }
 
-  .label-1 {
-    padding: 12px 23px;
-  }
-
-  .label-2 {
-    padding-top: 12px;
-    padding-right: 29px;
-    padding-bottom: 12px;
-    padding-left: 28px;
-  }
-
+  .label-1,
+  .label-2,
   .label-3 {
-    padding-top: 12px;
-    padding-right: 23px;
-    padding-bottom: 12px;
-    padding-left: 23px;
-  }
-
-  .label-4 {
-    padding-top: 10px;
-    padding-right: 23px;
-    padding-bottom: 10px;
-    padding-left: 23px;
-  }
-
-  .label-5 {
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 31px;
-  }
-
-  .label-6 {
-    padding-top: 7px;
-    padding-bottom: 9px;
+    padding: calc(var(--width) * 32) 0 calc(var(--width) * 32);
   }
 
   .label-4,
   .label-5 {
-    font-size: 15px;
-    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
-    font-weight: bold;
-    color: #333333;
-    line-height: 20px;
+    padding: calc(var(--width) * 25) 0;
   }
 
   .label-6 {
-    font-size: 12px;
-    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
-    font-weight: bold;
-    color: #f03e1a;
-    line-height: 16px;
+    padding: calc(var(--width) * 9) 0 calc(var(--width) * 11);
+    font-size: calc(var(--width) * 32);
+    line-height: calc(var(--width) * 43);
   }
 
-  .subTitle,
-  .subTitle2,
-  .subLabel,
-  .subLabel2 {
-    font-size: 12px;
-    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
-    font-weight: bold;
-
-    line-height: 16px;
+  .tableLabel4 {
+    font-size: calc(var(--width) * 40);
+    line-height: calc(var(--width) * 53);
   }
 
   .subTitle,
   .subTitle2 {
-    color: #914e03;
+    font-size: calc(var(--width) * 32);
+    line-height: calc(var(--width) * 43);
   }
 
   .subLabel,
   .subLabel2 {
-    color: #333333;
+    font-size: calc(var(--width) * 32);
+    line-height: calc(var(--width) * 43);
   }
 
   .subLabel {
-    margin-bottom: 10px;
+    margin-bottom: calc(var(--width) * 10);
+  }
+
+  .tableContent {
+    padding: calc(var(--width) * 27);
+    background-color: rgba(255 227 195/20%);
+    /* opacity: 0.2; */
   }
 
   .lingquan {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: calc(var(--width) * 53);
+    margin-left: calc(var(--width) * 40);
   }
 
   .arrow1 {
-    width: 28px;
-    height: 14px;
-    margin-right: 4px;
+    width: calc(var(--width) * 75);
+    height: calc(var(--width) * 37);
+    margin-right: calc(var(--width) * 13);
   }
 
   .arrowLabel {
-    font-size: 15px;
+    font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #f03e1a;
-    line-height: 20px;
+    line-height: calc(var(--width) * 53);
   }
 
   .introduce,
@@ -1657,190 +1649,196 @@ main {
 
   .mobilePicGroup,
   .mcoupon {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .mintro1,
   .mintro2 {
     text-align: center;
+    margin: 0 auto;
   }
 
   .mintroduce1 {
-    font-size: 40px;
+    font-size: calc(var(--width) * 107);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #f03e1a;
-    line-height: 53px;
+    line-height: calc(var(--width) * 141);
     background: linear-gradient(180deg, #ff6648 0%, #d90000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: calc(var(--width) * 17);
   }
 
   .mintrolabel1,
-  .mintorlabel2 {
-    font-size: 15px;
+  .mintrolabel2 {
+    font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
-    color: #333333;
-    line-height: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    color: #333333 !important;
+    line-height: calc(var(--width) * 53);
+    position: absolute;
+    left: calc(var(--width) * 25);
+    bottom: calc(var(--width) * 5);
   }
 
-  .mintro1,
-  .mintro2 {
-    padding-left: 125px;
-    padding-right: 125px;
+  .mboxGroup1 {
+    position: relative;
+    margin-top: calc(var(--width) * 55);
+    margin-bottom: calc(var(--width) * 55);
+  }
+
+  .mbox1 {
+    width: calc(var(--width) * 253);
+    height: calc(var(--width) * 40);
+  }
+
+  .mbox2 {
+    width: calc(var(--width) * 293);
+    height: calc(var(--width) * 40);
   }
 
   .mbox1,
   .mbox2 {
     background: #f03e1a;
     opacity: 0.14;
-    height: 15px;
-    width: 95px;
-    height: 15px;
-    position: absolute;
-    bottom: -5px;
-    left: 0px;
-  }
-
-  .mboxGroup1 {
-    position: relative;
-    margin-bottom: 23px;
   }
 
   .mpicGroup2 {
     display: flex;
-    padding-left: 75px;
-    padding-right: 45px;
+    margin: 0 auto;
     justify-content: space-between;
   }
 
   .mpic4 {
-    width: 108px;
-    height: 99px;
-    margin-right: 15px;
+    width: calc(var(--width) * 287);
+    height: calc(var(--width) * 264);
+    margin-right: 40px;
   }
 
   .mpic5 {
-    width: 120px;
-    height: 99px;
+    width: calc(var(--width) * 320);
+    height: calc(var(--width) * 264);
   }
 
   .mcontent1 {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 20px;
+    margin-top: calc(var(--width) * 27);
+    margin-bottom: calc(var(--width) * 13);
   }
 
   .mhintContent1 {
-    font-size: 9px;
+    font-size: calc(var(--width) * 24);
     font-family: MicrosoftYaHei;
     color: #999999;
-    line-height: 12px;
-    margin-top: 10px;
+    line-height: calc(var(--width) * 32);
+    margin-bottom: calc(var(--width) * 80);
     text-align: center;
   }
 
   .mpic6 {
-    width: 120px;
-    height: 99px;
+    width: calc(var(--width) * 287);
+    height: calc(var(--width) * 264);
   }
 
   .mpic7 {
-    width: 108px;
-    height: 99px;
+    width: calc(var(--width) * 320);
+    height: calc(var(--width) * 264);
   }
 
   .mpicGroup3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 42px;
-    padding-right: 41px;
+    margin: 0 auto calc(var(--width) * 27) auto;
   }
 
-  .mpicGroup3 img {
+  /* .mpicGroup3 img {
     margin-right: 20px;
     max-width: none;
-    height: auto;
-  }
+  } */
 
   .marrow3 {
-    width: 15px;
-    height: 14px;
+    width: calc(var(--width) * 39);
+    height: calc(var(--width) * 37);
+    margin: 0 calc(var(--width) * 25) 0 calc(var(--width) * 27);
   }
 
   .mcontent2 {
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 12px;
+    padding: 0 calc(var(--width) * 40);
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: calc(var(--width) * 27);
+    margin-bottom: calc(var(--width) * 13);
   }
 
   .mhintContent2 {
-    font-size: 9px;
+    font-size: calc(var(--width) * 24);
     font-family: MicrosoftYaHei;
     color: #999999;
-    line-height: 12px;
+    line-height: calc(var(--width) * 32);
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 20px;
+    padding: 0 calc(var(--width) * 53);
+    margin-bottom: calc(var(--width) * 53);
   }
 
   .mcoupon {
-    padding: 15px;
+    padding: calc(var(--width) * 40);
     background: #f9f9f9;
-    border-radius: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
+    border-radius: calc(var(--width) * 13);
+    margin: 0 calc(var(--width) * 40) calc(var(--width) * 25);
   }
 
   .mrules,
   .mnumber {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: 16px;
-    margin-bottom: 10px;
+    line-height: calc(var(--width) * 43);
+    margin-bottom: calc(var(--width) * 27);
   }
 
   .mtime {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #f03e1a;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
+  }
+
+  .title3 {
+    margin-bottom: 0;
+  }
+
+  .arrowLeft,
+  .arrowRight {
+    width: calc(var(--width) * 149);
+    height: calc(var(--width) * 29);
   }
 
   .title3Label {
-    font-size: 17px;
+    font-size: calc(var(--width) * 45);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333;
-    line-height: 23px;
+    line-height: calc(var(--width) * 61);
   }
 
   .part-2 {
-    margin: 0px 15px;
+    margin: calc(var(--width) * 53) auto 0;
+    width: calc(var(--width) * 920);
     background-color: #fff;
     height: auto;
-    border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    border-radius: calc(var(--width) * 20);
+    padding: calc(var(--width) * 80) calc(var(--width) * 40)
+      calc(var(--width) * 28);
   }
 
   /* .arrow1 {
@@ -1858,42 +1856,68 @@ main {
   } */
 
   .rulesIntro {
-    padding: 15px;
+    padding: calc(var(--width) * 56) calc(var(--width) * 40)
+      calc(var(--width) * 53);
+    margin-top: calc(var(--width) * 40);
+    background: #f9f9f9;
+    border-radius: calc(var(--width) * 13);
   }
 
   .rulesNumber {
-    font-size: 20px;
-  }
-
-  .rulesLabel,
-  .rulesLabel1 {
-    font-size: 12px;
+    font-size: calc(var(--width) * 53);
+    line-height: calc(var(--width) * 71);
+    margin-right: calc(var(--width) * 28);
   }
 
   .box3 {
-    height: 11px;
-    width: 1px;
+    width: calc(var(--width) * 1);
+    height: calc(var(--width) * 59);
     border: 1px dashed #f03e1a;
-    margin-top: 4px;
-    /* margin-bottom: 8px; */
-    margin-left: 10px;
+    margin-top: calc(var(--width) * 4);
+    margin-bottom: calc(var(--width) * 8);
+    margin-left: calc(var(--width) * 25);
+  }
+
+  .rulesLabel1 {
+    font-size: calc(var(--width) * 32);
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: calc(var(--width) * 43);
+    /* padding-top: calc(var(--width) * 20); */
+  }
+
+  .rulesPart1,
+  .rulesPart2 {
+    align-items: flex-start;
+  }
+
+  .rulesLabel {
+    font-size: calc(var(--width) * 32);
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: calc(var(--width) * 43);
+    padding-top: calc(var(--width) * 5);
   }
 
   .couponIntro2 {
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: calc(var(--width) * 53);
+    margin-bottom: calc(var(--width) * 40);
   }
 
   .bg-1 {
-    background-image: url("images/mbg-1.png");
+    background-image: url("images/bg-1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 15px;
+    padding: calc(var(--width) * 40);
     position: relative;
   }
 
+  .howToUse {
+    display: none;
+  }
+
   .blackIconGroup {
-    display: block;
+    display: flex;
   }
 
   .blackIconGroup,
@@ -1902,17 +1926,17 @@ main {
   .membershipLabel,
   .globalLabel,
   .addition {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: 18px;
+    line-height: calc(var(--width) * 48);
   }
 
   .appointmentLabel {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #f03e1a;
-    line-height: 18px;
+    line-height: calc(var(--width) * 48);
   }
 
   .blackIcon,
@@ -1922,8 +1946,8 @@ main {
   .global,
   .redTel,
   .fixed {
-    width: 13px;
-    height: 13px;
+    width: calc(var(--width) * 26);
+    height: calc(var(--width) * 26);
   }
 
   .clarifyPart .front img {
@@ -1956,8 +1980,8 @@ main {
   .clarifyLabel2,
   .getCoupon,
   .convinent {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: calc(var(--width) * 32);
+    line-height: calc(var(--width) * 48);
   }
 
   .weixinPart,
@@ -1996,73 +2020,56 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-bottom: calc(var(--width) * 53);
+    margin-top: calc(var(--width) * 23);
   }
 
-  .title4 .arrowLeft {
-    width: 40px;
-    height: 11px;
-  }
-
-  .title4 .arrowRight {
-    width: 40px;
-    height: 11px;
-  }
-
-  /* .title3Label {
-    font-size: 34px;
+  .title3Label {
+    font-size: calc(var(--width) * 45);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333;
-    line-height: 46px;
-  } */
+    line-height: calc(var(--width) * 61);
+  }
 
   .part-3 {
-    padding-top: 30px;
-    margin: 0px 15px;
+    margin: 0 auto;
+    width: calc(var(--width) * 920);
     background-color: #fff;
     height: auto;
-    border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    border-radius: calc(var(--width) * 27);
+    padding: calc(var(--width) * 63) calc(var(--width) * 40)
+      calc(var(--width) * 53);
   }
 
   .processNumber {
-    font-size: 25px;
+    font-size: calc(var(--width) * 67);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #f03e1a;
-    line-height: 34px;
+    line-height: calc(var(--width) * 89) px;
     background: linear-gradient(180deg, #ff6648 0%, #d90000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .processLabel1 {
-    font-size: 20px;
+    font-size: calc(var(--width) * 53);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333;
-    line-height: 27px;
+    line-height: calc(var(--width) * 71);
   }
 
   .processPart1 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 13px;
+    margin-bottom: calc(var(--width) * 23);
   }
 
   .whiteTel {
-    width: 12px;
-    height: 12px;
-  }
-
-  .whiteNumber {
-    font-size: 12px;
-    font-family: MicrosoftYaHei;
-    color: #999999;
-    line-height: 22px;
+    width: calc(var(--width) * 32);
+    height: calc(var(--width) * 32);
   }
 
   .whiteTelNumber {
@@ -2444,25 +2451,25 @@ main {
     display: flex;
     flex-direction: column;
     background: #f9f9f9;
-    border-radius: calc(var(--width)*13);
-    padding: calc(var(--width)*40);
+    border-radius: calc(var(--width) * 13);
+    padding: calc(var(--width) * 40);
     display: flex;
     justify-content: space-between;
     /* flex-wrap: warp; */
-    margin-top: calc(var(--width)*80);
+    margin-top: calc(var(--width) * 80);
   }
 
   .beizhu {
-    font-size: calc(var(--width)*40);
-    line-height: calc(var(--width)*47);
+    font-size: calc(var(--width) * 40);
+    line-height: calc(var(--width) * 47);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
   }
 
   .otherRight ul,
   .otherLeft ul {
-    font-size: calc(var(--width)*31);
-    line-height: calc(var(--width)*47);
+    font-size: calc(var(--width) * 31);
+    line-height: calc(var(--width) * 47);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     color: #333333;
     display: flex;
@@ -2470,49 +2477,48 @@ main {
   }
 
   .otherLabel {
-    font-size: calc(var(--width)*31);
-    line-height: calc(var(--width)*47);
-    margin-left: calc(var(--width)*10);
+    font-size: calc(var(--width) * 31);
+    line-height: calc(var(--width) * 47);
+    margin-left: calc(var(--width) * 10);
   }
 
   .otherRight {
     width: auto;
-    margin-top: calc(var(--width)*53);
+    margin-top: calc(var(--width) * 53);
   }
 
   .end {
-    font-size: calc(var(--width)*40);
+    font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333;
-    line-height: calc(var(--width)*53);
+    line-height: calc(var(--width) * 53);
     text-align: center;
     padding: 0;
-    margin-top: calc(var(--width)*53);
+    margin-top: calc(var(--width) * 53);
   }
 
   .title5 {
-    margin-bottom: calc(var(--width)*39);
-    margin-top: calc(var(--width)*107);
+    margin-bottom: calc(var(--width) * 39);
+    margin-top: calc(var(--width) * 107);
   }
 
-  .title5 .arrowLeft, .title5 .arrowRight {
-    width: calc(var(--width)*149);
-    height: calc(var(--width)*29);
-  
+  .title5 .arrowLeft,
+  .title5 .arrowRight {
+    width: calc(var(--width) * 149);
+    height: calc(var(--width) * 29);
   }
   .title5 .title3Label {
-    padding: 0 calc(var(--width)*13);
-    font-size: calc(var(--width)*45);
+    padding: 0 calc(var(--width) * 13);
+    font-size: calc(var(--width) * 45);
   }
 
   .part-4 {
-    margin: 0px calc(var(--width)*40);
-    padding: calc(var(--width)*40);
+    margin: 0px calc(var(--width) * 40);
+    padding: calc(var(--width) * 40);
     background-color: #fff;
     height: auto;
-    border-radius: calc(var(--width)*27);
-   
+    border-radius: calc(var(--width) * 27);
   }
 
   .shoufei {
@@ -2534,25 +2540,25 @@ main {
   .mfee2,
   .mfee3 {
     background: #f9f9f9;
-    border-radius: calc(var(--width)*27);
-    width: calc(var(--width)*373);
-    height: calc(var(--width)*368);
-    padding: calc(var(--width)*40);
+    border-radius: calc(var(--width) * 27);
+    width: calc(var(--width) * 373);
+    height: calc(var(--width) * 368);
+    padding: calc(var(--width) * 40);
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .mpic15 {
-    width: calc(var(--width)*177);
-    height: calc(var(--width)*115);
+    width: calc(var(--width) * 177);
+    height: calc(var(--width) * 115);
   }
 
   .mfeeName1,
   .mfeeName2,
   .mfeeName3 {
-    margin: calc(var(--width)*27) 0 calc(var(--width)*8);
-    font-size: calc(var(--width)*40);
+    margin: calc(var(--width) * 27) 0 calc(var(--width) * 8);
+    font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333;
@@ -2560,22 +2566,24 @@ main {
     word-wrap: nowrap;
   }
 
-  .mfeeDetail1, .mfeeDetail2, .mfeeDetail3 {
-    font-size: calc(var(--width)*32);
+  .mfeeDetail1,
+  .mfeeDetail2,
+  .mfeeDetail3 {
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: calc(var(--width)*43);
+    line-height: calc(var(--width) * 43);
     text-align: center;
   }
 
   .mfeeDetail1 {
-    width: calc(var(--width)*260);
+    width: calc(var(--width) * 260);
   }
 
   .line {
     width: 35px;
     height: 1px;
-    border: calc(var(--width)*1) dashed #cacaca;
+    border: calc(var(--width) * 1) dashed #cacaca;
   }
 
   .middlePart {
@@ -2586,34 +2594,35 @@ main {
   }
 
   .mredPlus {
-    width: calc(var(--width)*45);
-    height: calc(var(--width)*45);
-    margin-top: calc(var(--width)*167);
+    width: calc(var(--width) * 45);
+    height: calc(var(--width) * 45);
+    margin-top: calc(var(--width) * 167);
   }
 
   .mfee3 {
-    margin: calc(var(--width)*40) auto 0;
+    margin: calc(var(--width) * 40) auto 0;
   }
 
   .lineGroup {
     padding-left: 73px;
     padding-right: 73px;
-    margin-top: calc(var(--width)*50);
+    margin-top: calc(var(--width) * 50);
     display: flex;
     justify-content: space-between;
   }
 
   .leftLine {
-    width: calc(var(--width)*233);
-    height: calc(var(--width)*1);
-    border: calc(var(--width)*1) dashed #cacaca;
-    transform: rotate(21deg) translate(calc(var(--width)*28), calc(var(--width)*-16));
+    width: calc(var(--width) * 233);
+    height: calc(var(--width) * 1);
+    border: calc(var(--width) * 1) dashed #cacaca;
+    transform: rotate(21deg)
+      translate(calc(var(--width) * 28), calc(var(--width) * -16));
   }
 
   .rightLine {
-    width: calc(var(--width)*233);
-    height: calc(var(--width)*1);
-    border: calc(var(--width)*1) dashed #cacaca;
+    width: calc(var(--width) * 233);
+    height: calc(var(--width) * 1);
+    border: calc(var(--width) * 1) dashed #cacaca;
     transform: rotate(-21deg) translate(-8px, -7px);
   }
 }
