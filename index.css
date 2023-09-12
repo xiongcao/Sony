@@ -1271,7 +1271,7 @@ main {
   content: "\2022";
   color: #000;
 
-  margin-left: 5px;
+  /* margin-left: 5px; */
   margin-right: 5px;
 }
 
@@ -1282,7 +1282,7 @@ main {
 .rightList li::before {
   content: "\2022";
   color: #000;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 .end {
@@ -2454,26 +2454,30 @@ main {
 
   .beizhu {
     font-size: calc(var(--width)*40);
-    line-height: 17px;
+    line-height: calc(var(--width)*47);
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
   }
 
-  .otherRight,
+  .otherRight ul,
   .otherLeft ul {
-    font-size: 10px;
-    font-family: MicrosoftYaHei;
+    font-size: calc(var(--width)*31);
+    line-height: calc(var(--width)*47);
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     color: #333333;
-    line-height: 17px;
     display: flex;
     flex-direction: column;
   }
 
   .otherLabel {
-    font-size: 10px;
-    line-height: 17px;
+    font-size: calc(var(--width)*31);
+    line-height: calc(var(--width)*47);
+    margin-left: calc(var(--width)*10);
   }
 
   .otherRight {
     width: auto;
+    margin-top: calc(var(--width)*53);
   }
 
   .end {
@@ -2603,13 +2607,13 @@ main {
     width: calc(var(--width)*233);
     height: calc(var(--width)*1);
     border: calc(var(--width)*1) dashed #cacaca;
-    transform: rotate(25deg) translateX(13px); /* 旋转45度，形成对角线 */
+    transform: rotate(21deg) translate(calc(var(--width)*28), calc(var(--width)*-16));
   }
 
   .rightLine {
     width: calc(var(--width)*233);
     height: calc(var(--width)*1);
     border: calc(var(--width)*1) dashed #cacaca;
-    transform: rotate(-25deg) translateX(13px); /* 旋转45度，形成对角线 */
+    transform: rotate(-21deg) translate(-8px, -7px);
   }
 }
