@@ -1156,6 +1156,7 @@ main {
   margin-right: calc(var(--width) * 40);
   margin-left: calc(var(--width) * 44);
 }
+
 .dashedArrow2 {
   margin-right: calc(var(--width) * 19);
   margin-left: calc(var(--width) * 40);
@@ -2089,17 +2090,26 @@ main {
     margin-bottom: calc(var(--width) * 23);
   }
 
+  .processPart1Group {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .whiteTel {
     width: calc(var(--width) * 32);
     height: calc(var(--width) * 32);
   }
 
   .whiteTelNumber {
-    font-size: 10px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #999999;
-    line-height: 22px;
+    line-height: calc(var(--width) * 59);
     white-space: nowrap;
+  }
+
+  .whiteTelPart {
+    margin-left: calc(var(--width) * 129);
   }
 
   .processHint {
@@ -2108,11 +2118,11 @@ main {
 
   .mprocessHint {
     display: block;
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHeiSemibold;
     color: #333333;
-    line-height: 16px;
-    margin-bottom: 15px;
+    line-height: calc(var(--width) * 43);
+    margin-bottom: calc(var(--width) * 40);
   }
 
   .mtv-version {
@@ -2120,12 +2130,9 @@ main {
   }
 
   .box4 {
-    border-radius: 10px;
+    border-radius: calc(var(--width) * 27);
     border: 2px dashed #cacaca;
-    padding-top: 20px;
-    padding-left: 13px;
-    padding-right: 15px;
-    padding-bottom: 20px;
+    padding: calc(var(--width) * 53) calc(var(--width) * 40);
   }
 
   .scanPart {
@@ -2135,9 +2142,31 @@ main {
 
   .scan,
   .web {
-    width: 44px;
-    height: 44px;
+    width: calc(var(--width) * 88);
+    height: calc(var(--width) * 88);
     margin-bottom: 20px;
+  }
+
+  .box5 {
+    width: calc(var(--width) * 325);
+    height: calc(var(--width) * 40);
+  }
+
+  .box6 {
+    width: calc(var(--width) * 235);
+    height: calc(var(--width) * 40);
+  }
+
+  .scanLabel,
+  .webLabel {
+    font-size: calc(var(--width) * 45);
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: calc(var(--width) * 61);
+    position: absolute;
+    left: calc(var(--width) * 25);
+    bottom: calc(var(--width) * 5);
   }
 
   .weixinStep,
@@ -2152,51 +2181,55 @@ main {
   }
 
   .mweixinPicGroup1 {
-    padding-left: 14px;
-    padding-right: 16px;
-    margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: calc(var(--width) * 13);
   }
 
   .mpic8,
   .mpic9 {
-    width: 108px;
-    height: 107px;
+    width: calc(var(--width) * 287);
+    height: calc(var(--width) * 287);
+  }
+
+  .mpic8 {
+    margin-right: calc(var(--width) * 107);
   }
 
   .mstep1Wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     /* align-items: center; */
-    flex-wrap: wrap;
-    padding-left: 17px;
-    padding-right: 24px;
-    margin-top: 5px;
     text-align: center;
   }
 
   .mpic8Wrapper,
   .mpic9Wrapper {
-    font-size: 9px;
+    font-size: calc(var(--width) * 24);
     font-family: MicrosoftYaHei;
     color: #666666;
-    line-height: 12px;
+    line-height: calc(var(--width) * 32);
     text-align: center;
     flex: 1;
   }
 
-  .or {
-    font-size: 12px;
-    font-family: MicrosoftYaHei;
-    color: #f03e1a;
-    line-height: 16px;
-    text-align: center;
-    margin-right: 5px;
+  /* .mpic8Wrapper {
+    width: calc(var(--width) * 273);
+    height: calc(var(--width) * 64);
   }
 
-  .mpic8Wrapper {
-    margin-right: 8px;
+  .mpic9Wrapper {
+    width: calc(var(--width) * 216);
+    height: calc(var(--width) * 64);
+  } */
+
+  .or {
+    font-size: calc(var(--width) * 32);
+    font-family: MicrosoftYaHei;
+    color: #f03e1a;
+    line-height: calc(var(--width) * 43);
+    text-align: center;
+    /* margin: 0 calc(var(--width) * 109) 0 calc(var(--width) * 88); */
   }
 
   .mpicHint1 {
@@ -2204,20 +2237,20 @@ main {
   }
 
   .mstep-1 {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #111111;
-    line-height: 16px;
-    margin-top: 10px;
+    line-height: calc(var(--width) * 43);
+    margin-top: calc(var(--width) * 12);
     text-align: center;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
   .dashed1 {
     position: relative;
     width: calc(50% - 51px);
     height: 18px;
-    margin-left: 51px;
+    margin-left: calc(var(--width) * 85);
     border-right: 2px dashed rgb(1 50 135 / 20%);
     border-bottom: 2px dashed rgb(1 50 135 / 20%);
   }
@@ -2227,7 +2260,7 @@ main {
     position: absolute;
     top: 18px;
     width: 0;
-    height: 13px;
+    height: 18px;
     border-left: 2px dashed rgb(1 50 135 / 20%);
   }
 
@@ -2246,7 +2279,7 @@ main {
   }
 
   .mweixinPicGroup2 {
-    margin-top: 10px;
+    margin-top: calc(var(--width) * 42);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2254,38 +2287,39 @@ main {
 
   .mpic10,
   .mpic11 {
-    width: 128px;
-    height: 118px;
+    width: calc(var(--width) * 341);
+    height: calc(var(--width) * 315);
   }
 
   .marrow-1 {
-    width: 15px;
-    height: 14px;
-    margin-left: 8px;
-    margin-right: 7px;
+    width: calc(var(--width) * 39);
+    height: calc(var(--width) * 37);
+    margin-left: calc(var(--width) * 20);
+    margin-right: calc(var(--width) * 19);
   }
 
   .mstep2Wrapper {
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
+    margin-top: calc(var(--width) * 13);
+    padding: 0 0 0 calc(var(--width) * 57);
   }
 
   .mstep-2,
   .mstep-3 {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #111111;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
     text-align: center;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
   .dashed2 {
     position: relative;
-    width: calc(50% - 53px);
-    height: 18px;
-    margin-left: 50%;
+    width: calc(50% - 155px);
+    height: calc(var(--width) * 18);
+    margin-left: calc(var(--width) * 150);
     border-right: 2px dashed rgb(1 50 135 / 20%);
     border-bottom: 2px dashed rgb(1 50 135 / 20%);
   }
@@ -2314,26 +2348,26 @@ main {
   }
 
   .mpic12 {
-    width: 128px;
-    height: 118px;
-    margin: 20px auto;
+    width: calc(var(--width) * 341);
+    height: calc(var(--width) * 315);
+    margin: 0 auto calc(var(--width) * 13) auto;
     display: block;
   }
 
   .mstep-4 {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #111111;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
     text-align: center;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
   .addition-1 {
-    font-size: 9px;
+    font-size: calc(var(--width) * 24);
     font-family: MicrosoftYaHei;
     color: #999999;
-    line-height: 12px;
+    line-height: calc(var(--width) * 32);
   }
 
   .mobileRed {
@@ -2351,28 +2385,38 @@ main {
     padding: 0;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: calc(var(--width) * 27);
   }
 
   .pic13 {
-    width: 287px;
-    height: 136px;
+    width: calc(var(--width) * 765);
+    height: calc(var(--width) * 368);
+  }
+
+  .pic13Group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .webAppointmentLabel1 {
-    font-size: 12px;
+    width: calc(var(--width) * 469);
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
     text-align: center;
-    padding-left: 55px;
-    padding-right: 54px;
+    margin: calc(var(--width) * 8) calc(var(--width) * 145)
+      calc(var(--width) * 53);
+    white-space: wrap;
     /* font-weight: bold; */
   }
 
   .pic14 {
-    width: 254px;
-    height: 129px;
+    width: calc(var(--width) * 676);
+    height: calc(var(--width) * 345);
     /* margin-left: 15px; */
   }
 
@@ -2382,17 +2426,24 @@ main {
   }
 
   .webAppointmentLabel2 {
-    font-size: 12px;
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: 16px;
+    line-height: calc(var(--width) * 43);
     text-align: center;
+    width: calc(var(--width) * 760);
+    transform: none;
     /* font-weight: bold; */
   }
 
   .processStep,
   .labelGroup {
     display: none;
+  }
+
+  .mprocessStep {
+    display: flex;
+    flex-direction: column;
   }
 
   .mprocessPart {
@@ -2402,11 +2453,13 @@ main {
     align-items: center;
   }
 
+  /* box4箭头 */
+
   .dashed {
     position: relative;
-    width: calc(50% - 160px);
+    width: calc(50% - 188px);
     height: 18px;
-    margin-left: 160px;
+    margin-left: calc(var(--width) * 188);
     border-right: 2px dashed rgb(1 50 135 / 20%);
     border-bottom: 2px dashed rgb(1 50 135 / 20%);
   }
@@ -2417,15 +2470,57 @@ main {
     align-items: flex-start;
   }
 
+  .mprocessNumber {
+    font-size: calc(var(--width) * 67);
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #f03e1a;
+    line-height: calc(var(--width) * 89);
+    background: linear-gradient(180deg, #ff6648 0%, #d90000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .mprocessLabel1 {
+    font-size: calc(var(--width) * 53);
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: calc(var(--width) * 71);
+    margin-left: calc(var(--width) * 13);
+  }
+
+  .mprocessGroup2,
+  .mprocessGroup3,
+  .mprocessGroup4 {
+    display: flex;
+    align-items: center;
+  }
+
+  .mmprocessLabelGroup1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .mprocessIntro1,
   .mprocessIntro2,
-  .processIntro3 {
-    font-size: 24px;
+  .mprocessIntro3 {
+    font-size: calc(var(--width) * 32);
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: 32px;
+    line-height: calc(var(--width) * 44);
     text-align: center;
-    width: 264px;
+    width: calc(var(--width) * 352);
+  }
+
+  .dashedArrow {
+    position: relative;
+    width: calc(var(--width) * 101);
+    height: calc(var(--width) * 3);
+    border: 2px dashed #000000;
+    opacity: 0.21;
+    margin-right: calc(var(--width) * 45);
+    margin-left: calc(var(--width) * 41);
   }
 
   .dashed3 {
@@ -2460,7 +2555,7 @@ main {
     border-radius: 2px;
   }
 
-  .processPart4 {
+  .mprocessPart4 {
     display: flex;
     flex-direction: column;
     align-items: center;
