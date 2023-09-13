@@ -642,6 +642,7 @@ main {
   line-height: calc(var(--width) * 24);
   display: flex;
   align-items: flex-start;
+  letter-spacing: calc(var(--width) * -1);
 }
 
 .blackIconGroup > div:nth-child(1) {
