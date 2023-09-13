@@ -1981,9 +1981,15 @@ main {
   .global,
   .redTel,
   .fixed {
-    width: calc(var(--width) * 26);
-    height: calc(var(--width) * 26);
+    width: calc(var(--width) * 35);
+    height: calc(var(--width) * 35);
+    float: left;
   }
+
+  .weixin, .membership, .global, .blackIconGroup .blackIcon {
+    margin-top: calc(var(--width) * 6);
+  }
+  /* .front .blackIcon  */
 
   .clarifyPart .front img {
     max-width: none !important;
@@ -2038,6 +2044,7 @@ main {
     font-size: calc(var(--width) * 32);
     line-height: calc(var(--width) * 48);
     width: unset;
+    display: block;
   }
 
   .getCoupon {
@@ -2048,6 +2055,7 @@ main {
   .membershipPart,
   .globalPart {
     align-items: flex-start;
+    display: block;
   }
 
   .fixedLabel2 {
