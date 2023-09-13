@@ -122,7 +122,6 @@
             <button class="btn" id="btn">
               <a
                 class="getRightNow"
-                href="pages/index/index?scene%3DchannelId%3D106%26salesCode%3DHQ1002"
                 target="_blank"
                 >立即领取</a
               >
@@ -884,8 +883,33 @@
     </main>
     <div class="footers"></div>
   </body>
-
+  <script src="./jweixin-1.6.0.js"></script>
   <script>
+
+    $(".btn").click(() => {
+      if (isWeiXin()) {
+        wx.miniProgram.getEnv((res) => {
+          if (res.miniprogram) {
+            wx.miniProgram.navigateTo({
+              // url: "/pages/index/index?scene%3DchannelId%3D106%26salesCode%3DHQ1002",
+              url: "/pages/index/index?scene=channelId=106&salesCode=HQ1002",
+            });
+          }
+        });
+      } else {
+        location.href = `https://service.sony.com.cn/`;
+      }
+    });
+
+    function isWeiXin() {
+      var ua = window.navigator.userAgent.toLowerCase();
+      let str = /MicroMessenger/gi;
+      if (str.test(ua)) {
+        return true;
+      }
+      return false;
+    }
+
     $(".sony_header").load(`${location.origin}/header.html`);
     $(".footers").load(`${location.origin}/footer.html`);
 
@@ -908,57 +932,10 @@
       }
       return flag;
     }
-    // !PC() && $('.header,#footer').hide();
     if (PC()) {
       $(".container").css("padding-top", "76px");
     } else {
       $(".sony_header,.footers").hide();
     }
-  </script>
-
-  <script src="./jweixin-1.6.0.js"></script>
-
-  <script>
-    $(".btn").click(() => {
-      if (isWeiXin()) {
-        wx.miniProgram.getEnv((res) => {
-          if (res.miniprogram) {
-            wx.miniProgram.navigateTo({
-              url: "/pages/index/index?scene%3DchannelId%3D106%26salesCode%3DHQ1002",
-            });
-          }
-        });
-      }
-    });
-
-    function isWeiXin() {
-      var ua = window.navigator.userAgent.toLowerCase();
-      let str = /MicroMessenger/gi;
-      if (str.test(ua)) {
-        return true;
-      }
-      return false;
-    }
-
-    function PC() {
-      var userAgentInfo = navigator.userAgent;
-      var Agents = [
-        "Android",
-        "iPhone",
-        "SymbianOS",
-        "Windows Phone",
-        "iPad",
-        "iPod",
-      ];
-      var flag = true;
-      for (var v = 0; v < Agents.length; v++) {
-        if (userAgentInfo.indexOf(Agents[v]) > 0) {
-          flag = false;
-          break;
-        }
-      }
-      return flag;
-    }
-    !PC() && $(".header,#footer").hide();
   </script>
 </html>
