@@ -709,12 +709,12 @@ main {
 .fixedPart {
   display: flex;
   align-items: flex-start;
-  margin-top: 40px;
+  margin-top: calc(var(--width) * 24);
 }
 
 .clarifyPart {
   display: flex;
-  margin-top: calc(var(--width) * 14);
+  margin-top: calc(var(--width) * 24);
   align-items: flex-start;
 }
 
@@ -768,8 +768,7 @@ main {
   font-family: MicrosoftYaHei;
   color: #333333;
   line-height: calc(var(--width) * 24);
-  margin-top: calc(var(--width) * 14);
-  margin-bottom: calc(var(--width) * 24);
+  margin: calc(var(--width) * 24) 0;
 }
 
 .miniProgram {
@@ -1940,8 +1939,21 @@ main {
   }
 
   .blackIconGroup {
-    display: flex;
+    /* display: flex; */
+    display: unset;
   }
+
+  .blackIconGroup > div:nth-child(1) {
+    /* width: calc(var(--width) * 94);
+    display: flex; */
+    display: unset;
+    width: unset;
+    float: left;
+  }
+
+  /* .blackIconGroup > div:nth-child(2) {
+    float: left;
+  } */
 
   .blackIconGroup,
   .appointmentLabel,
@@ -1985,8 +1997,27 @@ main {
     max-width: none !important;
   }
 
+  .redTelPart, .fixedPart, .clarifyPart {
+    display: block;
+    margin-top: calc(var(--width) * 48);
+  }
+
+  .redTelPart .front, .fixedPart .front, .clarifyPart .front{
+    /* display: unset; */
+    width: unset;
+    float: left;
+  }
+
+  .fixedPart .front .fixedLabel1 {
+    width: unset;
+  }
+
   .bold2 {
     word-wrap: nowrap;
+  }
+
+  .redTelLabel1 {
+    width: unset;
   }
 
   .usePart,
@@ -2002,9 +2033,15 @@ main {
   .clarifyLabel1,
   .clarifyLabel2,
   .getCoupon,
-  .convinent {
+  .convinent,
+  .mfixedLabel2 {
     font-size: calc(var(--width) * 32);
     line-height: calc(var(--width) * 48);
+    width: unset;
+  }
+
+  .getCoupon {
+    margin: calc(var(--width) * 48) 0;
   }
 
   .weixinPart,
@@ -2019,10 +2056,10 @@ main {
 
   .mfixedLabel2 {
     display: inline;
-    font-size: 12px;
+    /* font-size: 12px;
     font-family: MicrosoftYaHei;
     color: #333333;
-    line-height: 18px;
+    line-height: 18px; */
   }
 
   .bg1-arrow {
