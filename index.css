@@ -2830,14 +2830,15 @@ main {
     width: calc(var(--width) * 233);
     height: calc(var(--width) * 1);
     border: calc(var(--width) * 1) dashed #cacaca;
-    transform: rotate(21deg)
-      translate(calc(var(--width) * 28), calc(var(--width) * -16));
+    /* transform: rotate(21deg) translate(calc(var(--width) * 28), calc(var(--width) * -16)); */
+    transform: rotate(21deg) translate(calc(var(--width) * 1), calc(var(--width) * -3));
   }
 
   .rightLine {
     width: calc(var(--width) * 233);
     height: calc(var(--width) * 1);
     border: calc(var(--width) * 1) dashed #cacaca;
-    transform: rotate(-21deg) translate(-8px, -7px);
+    /* transform: rotate(-21deg) translate(-8px, -7px); */
+    transform: rotate(-21deg) translate(calc(var(--width) * 0), calc(var(--width) * -1));
   }
 }
