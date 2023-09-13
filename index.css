@@ -1399,7 +1399,8 @@ main {
 .mprocessHint,
 .mweixinStep,
 .mprocessStep,
-.mshoufei {
+.mshoufei,
+.mpic13Group {
   display: none;
 }
 
@@ -2463,6 +2464,10 @@ main {
   }
 
   .pic13Group {
+    display: none;
+  }
+
+  .mpic13Group {
     display: flex;
     flex-direction: column;
     text-align: center;
