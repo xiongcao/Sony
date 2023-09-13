@@ -2370,9 +2370,9 @@ main {
 
   .dashed2 {
     position: relative;
-    width: calc(50% - 155px);
-    height: calc(var(--width) * 18);
-    margin-left: calc(var(--width) * 150);
+    width: calc(50% - 95px);
+    height: 18px;
+    margin-left: calc(var(--width) * 380);
     border-right: 2px dashed rgb(1 50 135 / 20%);
     border-bottom: 2px dashed rgb(1 50 135 / 20%);
   }
@@ -2510,11 +2510,34 @@ main {
 
   .dashed {
     position: relative;
-    width: calc(50% - 188px);
+    width: calc(50% - 105px);
     height: 18px;
     margin-left: calc(var(--width) * 228);
     border-right: 2px dashed rgb(1 50 135 / 20%);
     border-bottom: 2px dashed rgb(1 50 135 / 20%);
+  }
+
+  .dashed::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    width: 0;
+    height: 13px;
+    border-left: 2px dashed rgb(1 50 135 / 20%);
+  }
+
+  .dashed::after {
+    content: " ";
+    position: absolute;
+    height: 0;
+    width: 0;
+    bottom: -35px;
+    left: -5px;
+    border-top: 10px dashed rgb(1 50 135 / 20%);
+    border-bottom: 10px dashed transparent;
+    border-right: 6px dashed transparent;
+    border-left: 6px dashed transparent;
+    border-radius: 2px;
   }
 
   .mprocessLabelGroup1 {
