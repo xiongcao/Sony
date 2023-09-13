@@ -1696,8 +1696,8 @@ main {
     margin-bottom: calc(var(--width) * 17);
   }
 
-  .mintrolabel1,
-  .mintrolabel2 {
+  .mintrolabel1 {
+    width: calc(var(--width) * 200);
     font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
@@ -1705,6 +1705,18 @@ main {
     line-height: calc(var(--width) * 53);
     position: absolute;
     left: calc(var(--width) * 25);
+    bottom: calc(var(--width) * 5);
+  }
+
+  .mintrolabel2 {
+    width: calc(var(--width) * 200);
+    font-size: calc(var(--width) * 40);
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333 !important;
+    line-height: calc(var(--width) * 53);
+    position: absolute;
+    left: calc(var(--width) * 45);
     bottom: calc(var(--width) * 5);
   }
 
@@ -1989,7 +2001,10 @@ main {
     float: left;
   }
 
-  .weixin, .membership, .global, .blackIconGroup .blackIcon {
+  .weixin,
+  .membership,
+  .global,
+  .blackIconGroup .blackIcon {
     margin-top: calc(var(--width) * 6);
   }
   /* .front .blackIcon  */
@@ -2463,7 +2478,7 @@ main {
     text-align: center;
     margin: calc(var(--width) * 8) calc(var(--width) * 145)
       calc(var(--width) * 53);
-    white-space: wrap;
+    white-space: normal;
     /* font-weight: bold; */
   }
 
@@ -2661,7 +2676,7 @@ main {
 
   .otherRight ul,
   .otherLeft ul {
-    font-size: calc(var(--width) * 31);
+    font-size: calc(var(--width) * 30);
     line-height: calc(var(--width) * 47);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     color: #333333;
@@ -2670,7 +2685,7 @@ main {
   }
 
   .otherLabel {
-    font-size: calc(var(--width) * 31);
+    font-size: calc(var(--width) * 30);
     line-height: calc(var(--width) * 47);
     margin-left: calc(var(--width) * 10);
   }
