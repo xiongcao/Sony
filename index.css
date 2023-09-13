@@ -1403,7 +1403,8 @@ main {
 }
 
 @media (max-width: 1160px) {
-  .pic8Wrapper, .pic9Wrapper {
+  .pic8Wrapper,
+  .pic9Wrapper {
     transform: scale(0.9);
   }
   /* .step-1 {
@@ -1413,7 +1414,8 @@ main {
 }
 
 @media (max-width: 1023px) {
-  .pic8Wrapper, .pic9Wrapper {
+  .pic8Wrapper,
+  .pic9Wrapper {
     transform: scale(1);
   }
   .part-1 {
@@ -1460,6 +1462,7 @@ main {
   }
 
   .labelGroup2 {
+    flex-wrap: nowrap;
     margin-top: calc(var(--width) * 27);
     padding: 0 calc(var(--width) * 40);
   }
@@ -1501,8 +1504,8 @@ main {
 
   .pic2,
   .pic3 {
-    width: 138px;
-    height: 110px;
+    width: calc(var(--width) * 367);
+    height: calc(var(--width) * 293);
   }
 
   .labelGroup5 {
@@ -2003,12 +2006,16 @@ main {
     max-width: none !important;
   }
 
-  .redTelPart, .fixedPart, .clarifyPart {
+  .redTelPart,
+  .fixedPart,
+  .clarifyPart {
     display: block;
     margin-top: calc(var(--width) * 48);
   }
 
-  .redTelPart .front, .fixedPart .front, .clarifyPart .front{
+  .redTelPart .front,
+  .fixedPart .front,
+  .clarifyPart .front {
     /* display: unset; */
     width: unset;
     float: left;
@@ -2077,10 +2084,11 @@ main {
   .mbg1-arrow {
     display: block;
     position: absolute;
-    bottom: -55px;
-    left: 48%;
-    width: 53px;
-    height: 55px;
+    bottom: calc(var(--width) * -68);
+    left: 50%;
+    width: calc(var(--width) * 64);
+    height: calc(var(--width) * 68);
+    transform: translateX(-50%);
   }
 
   .title4 {
@@ -2089,7 +2097,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--width) * 53);
-    margin-top: calc(var(--width) * 23);
+    margin-top: calc(var(--width) * 40);
   }
 
   .title3Label {
@@ -2395,7 +2403,7 @@ main {
   .mpic12 {
     width: calc(var(--width) * 341);
     height: calc(var(--width) * 315);
-    margin: 0 auto calc(var(--width) * 13) auto;
+    margin: calc(var(--width) * 43) auto calc(var(--width) * 13) auto;
     display: block;
   }
 
@@ -2504,7 +2512,7 @@ main {
     position: relative;
     width: calc(50% - 188px);
     height: 18px;
-    margin-left: calc(var(--width) * 188);
+    margin-left: calc(var(--width) * 228);
     border-right: 2px dashed rgb(1 50 135 / 20%);
     border-bottom: 2px dashed rgb(1 50 135 / 20%);
   }
@@ -2572,7 +2580,7 @@ main {
     position: relative;
     width: calc(50% - 105px);
     height: 18px;
-    margin-left: 285px;
+    margin-left: calc(var(--width) * 460);
     border-right: 2px dashed rgb(1 50 135 / 20%);
     border-bottom: 2px dashed rgb(1 50 135 / 20%);
   }
@@ -2676,7 +2684,8 @@ main {
   }
 
   .part-4 {
-    margin: 0px calc(var(--width) * 40);
+    margin: 0 auto;
+    width: calc(var(--width) * 920);
     padding: calc(var(--width) * 40);
     background-color: #fff;
     height: auto;
