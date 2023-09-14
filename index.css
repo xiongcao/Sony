@@ -1545,7 +1545,7 @@ main {
   }
 
   .btn {
-    display: block;
+    display: none;
     width: calc(var(--width) * 312);
     height: calc(var(--width) * 93);
     background: linear-gradient(180deg, #ffe6c8 0%, #fcc08e 100%);

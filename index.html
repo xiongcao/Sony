@@ -892,29 +892,6 @@
   </body>
   <script src="./jweixin-1.6.0.js"></script>
   <script>
-    $(".btn").click(() => {
-      if (isWeiXin()) {
-        wx.miniProgram.getEnv((res) => {
-          if (res.miniprogram) {
-            wx.miniProgram.navigateTo({
-              // url: "/pages/index/index?scene%3DchannelId%3D106%26salesCode%3DHQ1002",
-              url: "/pages/index/index?scene=channelId=106&salesCode=HQ1002",
-            });
-          }
-        });
-      } else {
-       
-      }
-    });
-
-    function isWeiXin() {
-      var ua = window.navigator.userAgent.toLowerCase();
-      let str = /MicroMessenger/gi;
-      if (str.test(ua)) {
-        return true;
-      }
-      return false;
-    }
 
     $(".sony_header").load(`${location.origin}/header.html`);
     $(".footers").load(`${location.origin}/footer.html`);
@@ -943,5 +920,66 @@
     } else {
       $(".sony_header,.footers").hide();
     }
+
+    function isWeiXin() {
+      var ua = window.navigator.userAgent.toLowerCase();
+      // let mm = /MicroMessenger/gi;
+      let mp = /miniProgram/gi;
+      if (mp.test(ua) || window.__wxjs_environment === 'miniprogram') {
+        return true;
+      }
+      return false;
+    }
+    
+    const $btn = $('.btn');
+    // if(isWeiXin()) {
+    //   $btn.css({'display': 'block'});
+    //   wx.miniProgram.getEnv((res) => {
+    //     console.log(res, 'res')
+    //     if (res.miniprogram) {
+    //       $btn.click(() => {
+    //         wx.miniProgram.navigateTo({
+    //           // url: "/pages/index/index?scene%3DchannelId%3D106%26salesCode%3DHQ1002",
+    //           url: "/pages/index/index?scene=channelId=106&salesCode=HQ1002",
+    //         });
+    //       });
+    //     }
+    //   });
+    // } else {
+    //   $btn.css({'display': 'none'})
+    // }
+    
+
+    if(isWeiXin()) {
+      $btn.css({'display': 'block'})
+      console.log(wx.navigateToMiniProgram, 'wx.navigateToMiniProgram')
+      // wx.navigateToMiniProgram({
+      //   appId: 'wxba917b511dd3da60', // trial: wxba917b511dd3da60, release: 
+      //   path: '/pages/index/index?scene=channelId=106&salesCode=HQ1002',
+      //   envVersion: 'release', // develop, trial, release
+      //   success(res) {
+      //     console.log(res, 'res')
+      //   },
+      //   fail(err) {
+      //     console.log(err, 'err')
+      //   }
+      // })
+    } else {
+      $btn.css({'display': 'none'})
+    }
+    
+     
+    // wx.navigateToMiniProgram({
+    //   appId: 'wxba917b511dd3da60', // trial: wxba917b511dd3da60, release: 
+    //   path: '/pages/index/index?scene=channelId=106&salesCode=HQ1002',
+    //   envVersion: 'trial', // develop, trial, release
+    //   success(res) {
+    //     // 打开成功
+    //   }
+    // })
+
+    
+
+    
   </script>
 </html>
