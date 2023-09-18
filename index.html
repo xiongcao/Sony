@@ -931,7 +931,7 @@
       return false;
     }
     
-    const $btn = $('.btn');
+    // const $btn = $('.btn');
     // if(isWeiXin()) {
     //   $btn.css({'display': 'block'});
     //   wx.miniProgram.getEnv((res) => {
@@ -950,36 +950,21 @@
     // }
     
 
-    if(isWeiXin()) {
-      $btn.css({'display': 'block'})
-      console.log(wx.navigateToMiniProgram, 'wx.navigateToMiniProgram')
-      // wx.navigateToMiniProgram({
-      //   appId: 'wxba917b511dd3da60', // trial: wxba917b511dd3da60, release: 
-      //   path: '/pages/index/index?scene=channelId=106&salesCode=HQ1002',
-      //   envVersion: 'release', // develop, trial, release
-      //   success(res) {
-      //     console.log(res, 'res')
-      //   },
-      //   fail(err) {
-      //     console.log(err, 'err')
-      //   }
-      // })
-    } else {
-      $btn.css({'display': 'none'})
-    }
-    
-     
-    // wx.navigateToMiniProgram({
-    //   appId: 'wxba917b511dd3da60', // trial: wxba917b511dd3da60, release: 
-    //   path: '/pages/index/index?scene=channelId=106&salesCode=HQ1002',
-    //   envVersion: 'trial', // develop, trial, release
-    //   success(res) {
-    //     // 打开成功
-    //   }
-    // })
-
-    
-
-    
+    // if(isWeiXin()) {
+    //   $btn.css({'display': 'block'})
+    //   wx.navigateToMiniProgram({
+    //     appId: 'wxba917b511dd3da60', // trial: wxba917b511dd3da60, release: 
+    //     path: '/pages/index/index?scene=channelId=106&salesCode=HQ1002',
+    //     envVersion: 'release', // develop, trial, release
+    //     success(res) {
+    //       console.log(res, 'res')
+    //     },
+    //     fail(err) {
+    //       console.log(err, 'err')
+    //     }
+    //   })
+    // } else {
+    //   $btn.css({'display': 'none'})
+    // }
   </script>
 </html>
