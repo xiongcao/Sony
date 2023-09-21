@@ -1699,26 +1699,28 @@ main {
   }
 
   .mintrolabel1 {
-    width: calc(var(--width) * 200);
+    width: calc(var(--width) * 220);
     font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333 !important;
     line-height: calc(var(--width) * 53);
     position: absolute;
-    left: calc(var(--width) * 25);
+    left: 50%;
+    transform: translateX(-50%);
     bottom: calc(var(--width) * 5);
   }
 
   .mintrolabel2 {
-    width: calc(var(--width) * 200);
+    width: calc(var(--width) * 220);
     font-size: calc(var(--width) * 40);
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
     font-weight: bold;
     color: #333333 !important;
     line-height: calc(var(--width) * 53);
     position: absolute;
-    left: calc(var(--width) * 45);
+    left: 50%;
+    transform: translateX(-50%);
     bottom: calc(var(--width) * 5);
   }
 
